@@ -25,11 +25,16 @@
 .qn { font-family: var(--serif); color: var(--head); font-size: 16px; }
 .qs { font-size: 15px; color: var(--text); margin-top: 3px; display: none; } .q.open .qs { display: block; }
 .qmeta { font-size: 13px; color: var(--muted); }
-.boss { display: grid; grid-template-columns: 42px 1fr; gap: 10px; padding: 10px 0; border-bottom: 1px solid #2a2017; cursor: pointer; }
-.boss .sk { width: 42px; height: 42px; border: 1px solid var(--unique); display: grid; place-items: center; font: 20px var(--serif); color: var(--unique); background: radial-gradient(#3a1a0a, #120a06); box-shadow: inset 0 0 10px #000; }
+/* Retrato (Portrait.vue): quadro com borda; mosaico 2x2 quando há vários personagens. */
+.sk { width: 64px; height: 64px; flex: none; border: 1px solid var(--unique); display: grid; place-items: center; overflow: hidden; font: 26px var(--serif); color: var(--unique); background: radial-gradient(#3a1a0a, #120a06); box-shadow: inset 0 0 10px #000; }
+.sk.multi { grid-template-columns: 1fr 1fr; grid-auto-rows: minmax(0, 1fr); place-items: stretch; gap: 1px; background: #120a06; }
+.sk img { width: 100%; height: 100%; min-height: 0; object-fit: cover; object-position: top; display: block; }
+.boss { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 10px 0; border-bottom: 1px solid #2a2017; cursor: pointer; }
 .boss .bn { font-family: var(--serif); color: var(--unique); } .boss.final .bn::after { content: ' ★'; color: var(--gold); }
 .boss p { font-size: 15px; color: var(--text); margin: 2px 0 0; }
-.npcl { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 15px; } .npcl span b { color: var(--text-hi); font-family: var(--serif); font-weight: 400; }
+.npcl { display: grid; gap: 8px; font-size: 15px; }
+.npc { display: flex; gap: 10px; align-items: center; } .npc .sk { width: 48px; height: 48px; font-size: 20px; border-color: #5a4a35; }
+.npc b { display: block; color: var(--text-hi); font-family: var(--serif); font-weight: 400; } .npc span { color: var(--text); font-size: 14px; }
 .hint { color: var(--muted); font-style: italic; text-align: center; margin-top: 30px; }
 .warn { color: #d9a441; font-size: 14px; border: 1px solid #5a4318; padding: 6px 10px; margin: 8px 0; background: #1d150a; }
 .q:focus-visible, .boss:focus-visible { outline: 1px solid var(--gold); outline-offset: 2px; }

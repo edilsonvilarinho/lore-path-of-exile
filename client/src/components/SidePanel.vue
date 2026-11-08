@@ -3,6 +3,7 @@ import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import QuestItem from './QuestItem.vue';
 import BossItem from './BossItem.vue';
+import Portrait from './Portrait.vue';
 import { tx } from '../i18n';
 
 const props = defineProps({
@@ -40,7 +41,10 @@ const nodeMeta = computed(() => {
         <p>{{ tx(act.story) }}</p>
         <h4>{{ t('npcs') }}: {{ act.town }}</h4>
         <div class="npcl">
-          <span v-for="npc in act.npcs" :key="npc.name"><b>{{ npc.name }}</b> · {{ tx(npc.role) }}</span>
+          <div v-for="npc in act.npcs" :key="npc.name" class="npc">
+            <Portrait :img="npc.img" :name="npc.name" />
+            <div><b>{{ npc.name }}</b><span>{{ tx(npc.role) }}</span></div>
+          </div>
         </div>
       </template>
 

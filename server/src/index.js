@@ -26,6 +26,7 @@ app.get('/api/lore', (req, res) => res.json(lore));
 app.use('/api', (req, res) => res.status(404).json({ error: 'not found' }));
 
 app.use('/assets/maps', express.static(path.join(root, 'assets/maps'), { maxAge: '7d', fallthrough: false }));
+app.use('/assets/portraits', express.static(path.join(root, 'assets/portraits'), { maxAge: '7d', fallthrough: false }));
 app.use('/audio', express.static(audioDir, { maxAge: '30d', fallthrough: false }));
 
 if (fs.existsSync(publicDir)) {

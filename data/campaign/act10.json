@@ -6,15 +6,15 @@
     "pt": "Lilly Roth leva você de volta a Oriath, agora uma ruína onde Kitava se alimenta. A Overseer's Tower caiu: Vilenta deixou os cultistas entrarem por uma escada secreta, e o olhar de Kitava a transformou em algo pior. Bannon segurou os telhados para Lani escapar. O banquete de Kitava está selado atrás de dois portões negros, os 'Chifres de Kitava'. Bannon pede o Cajado de Avarius da arruinada Chamber of Innocence e depois confessa o verdadeiro propósito dele: despertar Innocence por completo. O deus quebra os Chifres ('Osso e corrupção não impedirão o caminho da pureza!') e, com Sin e Innocence lutando ao seu lado, você desce pelos Canals até o Feeding Trough e mata Kitava no Altar of Hunger. Sin: 'Seu mundo pode ter exilado você, mas sempre haverá um lugar para você à minha mesa.' Lilly leva você até as Karui Shores, e começa o Atlas."
   },
   "npcs": [
-    { "name": "Lani", "role": { "en": "Karui leader, rewards the final quest", "pt": "Líder Karui, recompensa a missão final" } },
-    { "name": "Bannon", "role": { "en": "Templar who holds the Staff of Purity", "pt": "Templário que guarda o Staff of Purity" } },
-    { "name": "Weylam & Lilly Roth", "role": { "en": "Grandfather and granddaughter, reunited", "pt": "Avô e neta, reunidos" } },
-    { "name": "Divinia", "role": { "en": "Templar archivist (Forbidden Sanctum)", "pt": "Arquivista Templária (Forbidden Sanctum)" } }
+    { "name": "Lani", "img": ["lani"], "role": { "en": "Karui leader, rewards the final quest", "pt": "Líder Karui, recompensa a missão final" } },
+    { "name": "Bannon", "img": ["bannon"], "role": { "en": "Templar who holds the Staff of Purity", "pt": "Templário que guarda o Staff of Purity" } },
+    { "name": "Weylam & Lilly Roth", "img": ["weylam-roth", "lilly-roth"], "role": { "en": "Grandfather and granddaughter, reunited", "pt": "Avô e neta, reunidos" } },
+    { "name": "Divinia", "img": ["divinia"], "role": { "en": "Templar archivist (Forbidden Sanctum)", "pt": "Arquivista Templária (Forbidden Sanctum)" } }
   ],
   "bosses": [
-    { "name": "Plaguewing", "area": "2_10_1", "track": "cathedral-rooftop", "lore": { "en": "A winged horror besieging Bannon on the Cathedral Rooftop.", "pt": "Um horror alado cercando Bannon no Cathedral Rooftop." } },
-    { "name": "Vilenta", "area": "2_10_7", "track": "control-blocks", "lore": { "en": "The scientist who listened to corruption. She betrayed the Overseer's Tower to Kitava and was transformed by his gaze.", "pt": "A cientista que escutava a corrupção. Traiu a Overseer's Tower para Kitava e foi transformada pelo olhar dele." } },
-    { "name": "Kitava, the Insatiable", "area": "2_10_6", "final": true, "track": "altar-hunger", "lore": { "en": "The Ravenous God, finally killed at his own Altar of Hunger with Sin and Innocence fighting together.", "pt": "O Deus Voraz, enfim morto no próprio Altar of Hunger, com Sin e Innocence lutando juntos." } }
+    { "name": "Plaguewing", "img": ["plaguewing"], "area": "2_10_1", "track": "cathedral-rooftop", "lore": { "en": "A winged horror besieging Bannon on the Cathedral Rooftop.", "pt": "Um horror alado cercando Bannon no Cathedral Rooftop." } },
+    { "name": "Vilenta", "img": ["vilenta"], "area": "2_10_7", "track": "control-blocks", "lore": { "en": "The scientist who listened to corruption. She betrayed the Overseer's Tower to Kitava and was transformed by his gaze.", "pt": "A cientista que escutava a corrupção. Traiu a Overseer's Tower para Kitava e foi transformada pelo olhar dele." } },
+    { "name": "Kitava, the Insatiable", "img": ["kitava"], "area": "2_10_6", "final": true, "track": "altar-hunger", "lore": { "en": "The Ravenous God, finally killed at his own Altar of Hunger with Sin and Innocence fighting together.", "pt": "O Deus Voraz, enfim morto no próprio Altar of Hunger, com Sin e Innocence lutando juntos." } }
   ],
   "quests": [
     { "name": "Safe Passage", "req": true, "boss": "Plaguewing", "area": "2_10_1", "sum": { "en": "Lani: the tower fell because of Vilenta. Save Bannon from the cultists on the Cathedral Rooftop.", "pt": "Lani: a torre caiu por causa de Vilenta. Salve Bannon dos cultistas no Cathedral Rooftop." } },

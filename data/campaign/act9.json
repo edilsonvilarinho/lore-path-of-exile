@@ -6,16 +6,16 @@
     "pt": "Pelo Blood Aqueduct você volta a Highgate e desce ao Deserto de Vastiri, terra natal dos Maraketh. Os deuses despertos estão aqui também. Shakari, Rainha das Areias, filha de Sin e Garukhan, reconstrói seu antigo exército atrás de uma tempestade de areia sobrenatural. Kira, obcecada por Garukhan, sequestrou a sekhema Oyun para sacrificá-la ao 'Abutre dos Ermos'. O plano de Sin chega ao objetivo: a Brasa Sombria ainda está dentro do cadáver da Besta, e a única entrada é uma ferida antiga deixada por Doryani. Para dissolvê-la ele precisa do Basilisk Acid do Boiling Lake e do Trarthan Powder da Refinery, guardado pelo general morto-vivo Adus. No Rotting Core, Doedre, Maligaro e Shavronne se fundem na Depraved Trinity."
   },
   "npcs": [
-    { "name": "Irasha", "role": { "en": "Maraketh, tells the scorpion ritual", "pt": "Maraketh, conta o ritual do escorpião" } },
-    { "name": "Tasuni", "role": { "en": "Kira's brother", "pt": "Irmão de Kira" } },
-    { "name": "Petarus and Vanja", "role": { "en": "Merchants, want Maraketh relics", "pt": "Mercadores, querem relíquias Maraketh" } },
-    { "name": "Sin", "role": { "en": "Leads you back into the Beast", "pt": "Leva você de volta para dentro da Besta" } }
+    { "name": "Irasha", "img": ["irasha"], "role": { "en": "Maraketh, tells the scorpion ritual", "pt": "Maraketh, conta o ritual do escorpião" } },
+    { "name": "Tasuni", "img": ["tasuni"], "role": { "en": "Kira's brother", "pt": "Irmão de Kira" } },
+    { "name": "Petarus and Vanja", "img": ["petarus-vanja"], "role": { "en": "Merchants, want Maraketh relics", "pt": "Mercadores, querem relíquias Maraketh" } },
+    { "name": "Sin", "img": ["sin"], "role": { "en": "Leads you back into the Beast", "pt": "Leva você de volta para dentro da Besta" } }
   ],
   "bosses": [
-    { "name": "Shakari, Queen of the Sands", "area": "2_9_4", "track": "shakari", "lore": { "en": "Daughter of Sin and Garukhan. Her hunger for power gave her a half-scorpion form; the Beast put her to sleep before she could conquer 'the very sky'.", "pt": "Filha de Sin e Garukhan. A fome de poder deu a ela forma de meio escorpião; a Besta a adormeceu antes que ela conquistasse 'o próprio céu'." } },
-    { "name": "Garukhan, Queen of the Winds", "area": "2_9_8", "lore": { "en": "Orbala, Sekhema of Sekhemas, ascended. She freed Sin from Innocence's chains; her search for the sky's secrets slowly drove her mad.", "pt": "Orbala, Sekhema das Sekhemas, ascendida. Libertou Sin das correntes de Innocence; a busca pelos segredos do céu a enlouqueceu aos poucos." } },
-    { "name": "General Adus", "area": "2_9_9", "lore": { "en": "Eternal war hero who hid in the Highgate Refinery when the Cataclysm began.", "pt": "Herói de guerra Eterno que se escondeu na Refinery de Highgate quando o Cataclismo começou." } },
-    { "name": "The Depraved Trinity", "area": "2_9_10_1", "final": true, "track": "heart-corruption", "lore": { "en": "Doedre, Maligaro and Shavronne fused inside the Beast's rotting heart.", "pt": "Doedre, Maligaro e Shavronne fundidos dentro do coração podre da Besta." } }
+    { "name": "Shakari, Queen of the Sands", "img": ["shakari"], "area": "2_9_4", "track": "shakari", "lore": { "en": "Daughter of Sin and Garukhan. Her hunger for power gave her a half-scorpion form; the Beast put her to sleep before she could conquer 'the very sky'.", "pt": "Filha de Sin e Garukhan. A fome de poder deu a ela forma de meio escorpião; a Besta a adormeceu antes que ela conquistasse 'o próprio céu'." } },
+    { "name": "Garukhan, Queen of the Winds", "img": ["garukhan"], "area": "2_9_8", "lore": { "en": "Orbala, Sekhema of Sekhemas, ascended. She freed Sin from Innocence's chains; her search for the sky's secrets slowly drove her mad.", "pt": "Orbala, Sekhema das Sekhemas, ascendida. Libertou Sin das correntes de Innocence; a busca pelos segredos do céu a enlouqueceu aos poucos." } },
+    { "name": "General Adus", "img": ["adus"], "area": "2_9_9", "lore": { "en": "Eternal war hero who hid in the Highgate Refinery when the Cataclysm began.", "pt": "Herói de guerra Eterno que se escondeu na Refinery de Highgate quando o Cataclismo começou." } },
+    { "name": "The Depraved Trinity", "img": ["trinity"], "area": "2_9_10_1", "final": true, "track": "heart-corruption", "lore": { "en": "Doedre, Maligaro and Shavronne fused inside the Beast's rotting heart.", "pt": "Doedre, Maligaro e Shavronne fundidos dentro do coração podre da Besta." } }
   ],
   "quests": [
     { "name": "The Storm Blade", "req": false, "area": "2_9_3", "sum": { "en": "Recover the Storm Blade in the desert; Petarus and Vanja turn it into the Bottled Storm that breaks Shakari's sandstorm.", "pt": "Recupere a Storm Blade no deserto; Petarus e Vanja a transformam na Bottled Storm que rompe a tempestade de Shakari." } },

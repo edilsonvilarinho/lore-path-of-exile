@@ -12,6 +12,7 @@
     "start": "npm start -w server",
     "build:campaign": "node scripts/build-campaign.mjs",
     "copy:audio": "node scripts/copy-audio.mjs",
+    "fetch:portraits": "node scripts/fetch-portraits.mjs",
     "capture": "node scripts/capture-screens.mjs"
   },
   "devDependencies": {

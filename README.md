@@ -55,7 +55,7 @@ Open **http://localhost:5173**.
 | Process | Address | What it does |
 | --- | --- | --- |
 | API (Express) | http://127.0.0.1:3000 | Serves `/api/*`, the maps and the music |
-| Client (Vite) | http://localhost:5173 | Vue app with hot reload; forwards `/api`, `/audio` and `/assets/maps` to the API |
+| Client (Vite) | http://localhost:5173 | Vue app with hot reload; forwards `/api`, `/audio`, `/assets/maps` and `/assets/portraits` to the API |
 
 ### Production build
 
@@ -109,17 +109,19 @@ In Dokploy: Build Type **Dockerfile**, Dockerfile Path `Dockerfile.dokploy`, Doc
 ```
 client/            Vue 3 + Vite + vue-router + Pinia + vue-i18n
   src/views/       WorldView: the waypoint world screen
-  src/components/  ActMap, SidePanel, QuestItem, BossItem, AreaTooltip, TopBar
+  src/components/  ActMap, SidePanel, QuestItem, BossItem, Portrait, AreaTooltip, TopBar
   src/stores/      campaign data and audio (crossfade)
-server/src/        Express 5: /api/campaign, /api/lore, /api/health, static maps, audio and client
-data/              lore.json (eras, figures) and campaign/act1..10.json (nodes, quests, bosses)
+server/src/        Express 5: /api/campaign, /api/lore, /api/health, static maps, portraits, audio and client
+data/              lore.json (eras, figures), campaign/act1..10.json (nodes, quests, bosses) and portraits.json
 assets/maps/       official waypoint maps
-scripts/           build-campaign, copy-audio, capture-screens
+assets/portraits/  boss and NPC portraits (200 px) from the PoE Wiki
+scripts/           build-campaign, fetch-portraits, copy-audio, capture-screens
 ```
 
 | Command | What it does |
 | --- | --- |
-| `npm run build:campaign` | Merges `data/campaign/act*.json` into `data/campaign.json` and checks every reference (tracks, maps, quest and boss areas) |
+| `npm run build:campaign` | Merges `data/campaign/act*.json` into `data/campaign.json` and checks every reference (tracks, maps, quest and boss areas, portraits) |
+| `npm run fetch:portraits` | Downloads the portraits listed in `data/portraits.json` (slug → PoE Wiki file) into `assets/portraits/`; skips existing files, `--force` re-downloads |
 | `npm run copy:audio -- <dir>` | Copies the soundtrack used by the site |
 | `npm run capture` | Regenerates the README images and GIFs in `docs/media` (needs the app running, Google Chrome and `ffmpeg`) |
 
@@ -129,6 +131,6 @@ The map node positions follow the official waypoint images. A few nodes were pla
 
 ## Credits and license
 
-- Lore text is summarized and translated from the community [Path of Exile Wiki](https://www.poewiki.net), licensed [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/). The derived text in `data/` is shared under the same license.
+- Lore text is summarized and translated from the community [Path of Exile Wiki](https://www.poewiki.net), licensed [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/). The derived text in `data/` is shared under the same license. Boss and NPC portraits in `assets/portraits/` are in-game screenshots hosted by the PoE Wiki.
 - Path of Exile, its maps, art and music are the intellectual property of **Grinding Gear Games**. This is an unofficial fan project, not affiliated with or endorsed by Grinding Gear Games.
 - Source code: [MIT](LICENSE).

@@ -57,6 +57,7 @@ COPY --from=build /app/server/package.json ./server/package.json
 COPY --from=build /app/server/src ./server/src
 COPY --from=build /app/data/lore.json /app/data/campaign.json ./data/
 COPY --from=build /app/assets/maps ./assets/maps
+COPY --from=build /app/assets/portraits ./assets/portraits
 COPY --from=build /app/client/dist ./public
 
 RUN mkdir -p /audio

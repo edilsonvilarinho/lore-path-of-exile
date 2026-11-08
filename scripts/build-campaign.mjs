@@ -7,10 +7,21 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dir = path.join(root, 'data', 'campaign');
 const lore = JSON.parse(fs.readFileSync(path.join(root, 'data', 'lore.json'), 'utf8'));
 const extraTracks = JSON.parse(fs.readFileSync(path.join(dir, 'tracks.json'), 'utf8'));
+const portraits = JSON.parse(fs.readFileSync(path.join(root, 'data', 'portraits.json'), 'utf8'));
 
 const acts = Array.from({ length: 10 }, (_, i) => JSON.parse(fs.readFileSync(path.join(dir, `act${i + 1}.json`), 'utf8')));
 const trackIds = new Set([...lore.tracks, ...extraTracks].map((t) => t.id));
 const errors = [];
+
+// img: slugs de data/portraits.json -> nomes de arquivo em assets/portraits (com extensão) no payload.
+const resolveImg = (label, e) => {
+  if (!e.img) return;
+  e.img = e.img.map((slug) => {
+    const file = portraits[slug] && `${slug}${path.extname(portraits[slug]).toLowerCase()}`;
+    if (!file || !fs.existsSync(path.join(root, 'assets', 'portraits', file))) errors.push(`${label}: retrato ${slug} (rode npm run fetch:portraits)`);
+    return file;
+  });
+};
 
 for (const a of acts) {
   const nodeIds = new Set(a.nodes.map((n) => n.id));
@@ -23,7 +34,9 @@ for (const a of acts) {
   for (const b of a.bosses) {
     if (b.track && !trackIds.has(b.track)) errors.push(`act ${a.n} boss ${b.name}: track ${b.track}`);
     if (!nodeIds.has(b.area)) errors.push(`act ${a.n} boss ${b.name}: área ${b.area} sem nó`);
+    resolveImg(`act ${a.n} boss ${b.name}`, b);
   }
+  for (const n of a.npcs) resolveImg(`act ${a.n} npc ${n.name}`, n);
   for (const q of a.quests) if (q.area && !nodeIds.has(q.area)) errors.push(`act ${a.n} quest ${q.name}: área ${q.area} sem nó`);
 }
 

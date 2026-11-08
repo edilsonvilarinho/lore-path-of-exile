@@ -2,6 +2,7 @@
 import { computed, nextTick, ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { tip } from '../composables/tooltip';
+import Portrait from './Portrait.vue';
 
 const { t } = useI18n();
 const box = ref(null);
@@ -33,7 +34,7 @@ watch(() => [tip.node, tip.x, tip.y], async () => {
       </template>
       <template v-if="bosses.length">
         <div class="tp-sep"></div>
-        <div v-for="b in bosses" :key="b.name" class="tp-unique">{{ b.name }}</div>
+        <div v-for="b in bosses" :key="b.name" class="tp-unique tp-boss"><Portrait :img="b.img" :name="b.name" />{{ b.name }}</div>
       </template>
       <template v-if="tip.node.unverified">
         <div class="tp-sep"></div>

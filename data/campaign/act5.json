@@ -6,18 +6,18 @@
     "pt": "A máquina no topo do Ascent abre um portal para casa: os Slave Pens de Oriath. A ilha que exilou você é uma teocracia construída sobre escravos Karui. Com a Besta morta, os deuses começam a acordar. Com a Karui Lani e a cientista Vilenta, você passa pelos Control Blocks e pela Oriath Square até os Templar Courts. Na Chamber of Innocence você mata o Alto Templário Avarius e o próprio Innocence, o deus da fé Templária. A queda dele é exatamente o que Utula, sumo sacerdote de um culto a Kitava entre os escravos, esperava: ele realiza o King's Feast e puxa Kitava, o Deus Voraz, de um rio de sangue. Com o Sign of Purity do Ossuary, você enfrenta Kitava no Cathedral Rooftop. Ele destrói o Sign e não pode ser morto. A capitã Lilly Roth leva você de volta a Wraeclast."
   },
   "npcs": [
-    { "name": "Lani", "role": { "en": "Karui slave leader", "pt": "Líder dos escravos Karui" } },
-    { "name": "Vilenta", "role": { "en": "Scientist who listens to corruption", "pt": "Cientista que escuta a corrupção" } },
-    { "name": "Bannon", "role": { "en": "Templar who loves Oriath", "pt": "Templário que ama Oriath" } },
-    { "name": "Sin", "role": { "en": "The god who created the Beast", "pt": "O deus que criou a Besta" } },
-    { "name": "Lilly Roth", "role": { "en": "Ship captain, Weylam's granddaughter", "pt": "Capitã de navio, neta de Weylam" } }
+    { "name": "Lani", "img": ["lani"], "role": { "en": "Karui slave leader", "pt": "Líder dos escravos Karui" } },
+    { "name": "Vilenta", "img": ["vilenta"], "role": { "en": "Scientist who listens to corruption", "pt": "Cientista que escuta a corrupção" } },
+    { "name": "Bannon", "img": ["bannon"], "role": { "en": "Templar who loves Oriath", "pt": "Templário que ama Oriath" } },
+    { "name": "Sin", "img": ["sin"], "role": { "en": "The god who created the Beast", "pt": "O deus que criou a Besta" } },
+    { "name": "Lilly Roth", "img": ["lilly-roth"], "role": { "en": "Ship captain, Weylam's granddaughter", "pt": "Capitã de navio, neta de Weylam" } }
   ],
   "bosses": [
-    { "name": "Overseer Krow", "area": "1_5_1", "lore": { "en": "Overseer of the Slave Pens.", "pt": "Supervisor dos Slave Pens." } },
-    { "name": "Justicar Casticus", "area": "1_5_2", "track": "control-blocks", "lore": { "en": "Templar justicar of the Control Blocks. Drops the Eyes of Zeal, key to the Templar Courts.", "pt": "Justicar Templário dos Control Blocks. Deixa cair os Eyes of Zeal, chave dos Templar Courts." } },
-    { "name": "High Templar Avarius & Innocence", "area": "1_5_5", "track": "avarius", "lore": { "en": "The High Templar of Oriath and the god behind the faith. Innocence rose by turning his followers' hatred against his twin, Sin.", "pt": "O Alto Templário de Oriath e o deus por trás da fé. Innocence ascendeu voltando o ódio dos seguidores contra o gêmeo, Sin." } },
-    { "name": "Utula, Stone and Steel", "area": "1_5_3b", "track": "ruined-square", "lore": { "en": "High priest of the Kitava cult. You kill him, but not before he completes the ritual.", "pt": "Sumo sacerdote do culto de Kitava. Você o mata, mas não antes de ele completar o ritual." } },
-    { "name": "Kitava, the Insatiable", "area": "1_5_8", "final": true, "track": "kitava", "lore": { "en": "Karui god born of Hunger, punished by Tukohama, Valako and Hinekora and bound in the underworld. Free again, he devours Oriath.", "pt": "Deus Karui nascido da Fome, punido por Tukohama, Valako e Hinekora e preso no submundo. Livre de novo, ele devora Oriath." } }
+    { "name": "Overseer Krow", "img": ["krow"], "area": "1_5_1", "lore": { "en": "Overseer of the Slave Pens.", "pt": "Supervisor dos Slave Pens." } },
+    { "name": "Justicar Casticus", "img": ["casticus"], "area": "1_5_2", "track": "control-blocks", "lore": { "en": "Templar justicar of the Control Blocks. Drops the Eyes of Zeal, key to the Templar Courts.", "pt": "Justicar Templário dos Control Blocks. Deixa cair os Eyes of Zeal, chave dos Templar Courts." } },
+    { "name": "High Templar Avarius & Innocence", "img": ["avarius", "innocence"], "area": "1_5_5", "track": "avarius", "lore": { "en": "The High Templar of Oriath and the god behind the faith. Innocence rose by turning his followers' hatred against his twin, Sin.", "pt": "O Alto Templário de Oriath e o deus por trás da fé. Innocence ascendeu voltando o ódio dos seguidores contra o gêmeo, Sin." } },
+    { "name": "Utula, Stone and Steel", "img": ["utula"], "area": "1_5_3b", "track": "ruined-square", "lore": { "en": "High priest of the Kitava cult. You kill him, but not before he completes the ritual.", "pt": "Sumo sacerdote do culto de Kitava. Você o mata, mas não antes de ele completar o ritual." } },
+    { "name": "Kitava, the Insatiable", "img": ["kitava"], "area": "1_5_8", "final": true, "track": "kitava", "lore": { "en": "Karui god born of Hunger, punished by Tukohama, Valako and Hinekora and bound in the underworld. Free again, he devours Oriath.", "pt": "Deus Karui nascido da Fome, punido por Tukohama, Valako e Hinekora e preso no submundo. Livre de novo, ele devora Oriath." } }
   ],
   "quests": [
     { "name": "Return to Oriath", "req": true, "boss": "Overseer Krow", "area": "1_5_1", "sum": { "en": "Cross the portal from the Ascent into the Slave Pens and kill Overseer Krow.", "pt": "Atravesse o portal do Ascent até os Slave Pens e mate o Overseer Krow." } },

@@ -1,5 +1,6 @@
 <script setup>
 import { tx } from '../i18n';
+import Portrait from './Portrait.vue';
 
 defineProps({
   boss: { type: Object, required: true },
@@ -10,7 +11,7 @@ const emit = defineEmits(['focus']);
 
 <template>
   <div class="boss" :class="{ final: boss.final }" role="button" tabindex="0" @click="emit('focus', boss)" @keydown.enter.space.prevent="emit('focus', boss)">
-    <div class="sk">{{ boss.name[0] }}</div>
+    <Portrait :img="boss.img" :name="boss.name" />
     <div>
       <div class="bn">{{ boss.name }}</div>
       <div class="qmeta">{{ areaName }}</div>

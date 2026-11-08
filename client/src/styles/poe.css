@@ -58,6 +58,7 @@ a { color: var(--gold); text-decoration: none; }
 .tp-prop { color: #7f7f7f; } .tp-prop b { color: var(--white); font-weight: 400; }
 .tp-desc { color: var(--text-hi); font-style: italic; }
 .tp-unique { color: var(--unique); font-family: var(--serif); }
+.tp-boss { display: flex; align-items: center; justify-content: center; gap: 8px; margin: 3px 0; } .tp-boss .sk { width: 32px; height: 32px; font-size: 14px; }
 .tp-warn { color: #d9a441; font-size: 13px; }
 .tp-sep { height: 1px; margin: 6px 0; background: linear-gradient(90deg, transparent, #5d4a2e, transparent); }
 

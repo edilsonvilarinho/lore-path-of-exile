@@ -55,7 +55,7 @@ O `npm run dev` sobe dois processos:
 | Processo | Endereço | O que faz |
 | --- | --- | --- |
 | API (Express) | http://127.0.0.1:3000 | Serve `/api/*`, os mapas e as músicas |
-| Cliente (Vite) | http://localhost:5173 | App Vue com hot reload; repassa `/api`, `/audio` e `/assets/maps` para a API |
+| Cliente (Vite) | http://localhost:5173 | App Vue com hot reload; repassa `/api`, `/audio`, `/assets/maps` e `/assets/portraits` para a API |
 
 ### Build de produção
 
@@ -109,17 +109,19 @@ No Dokploy: Build Type **Dockerfile**, Dockerfile Path `Dockerfile.dokploy`, Doc
 ```
 client/            Vue 3 + Vite + vue-router + Pinia + vue-i18n
   src/views/       WorldView: a tela de waypoints do mundo
-  src/components/  ActMap, SidePanel, QuestItem, BossItem, AreaTooltip, TopBar
+  src/components/  ActMap, SidePanel, QuestItem, BossItem, Portrait, AreaTooltip, TopBar
   src/stores/      dados da campanha e áudio (crossfade)
-server/src/        Express 5: /api/campaign, /api/lore, /api/health, mapas, áudio e cliente estáticos
-data/              lore.json (eras, personagens) e campaign/act1..10.json (nós, missões, chefes)
+server/src/        Express 5: /api/campaign, /api/lore, /api/health, mapas, retratos, áudio e cliente estáticos
+data/              lore.json (eras, personagens), campaign/act1..10.json (nós, missões, chefes) e portraits.json
 assets/maps/       mapas oficiais de waypoint
-scripts/           build-campaign, copy-audio, capture-screens
+assets/portraits/  retratos de chefes e NPCs (200 px) da PoE Wiki
+scripts/           build-campaign, fetch-portraits, copy-audio, capture-screens
 ```
 
 | Comando | O que faz |
 | --- | --- |
-| `npm run build:campaign` | Junta `data/campaign/act*.json` em `data/campaign.json` e valida todas as referências (faixas, mapas, áreas de missões e chefes) |
+| `npm run build:campaign` | Junta `data/campaign/act*.json` em `data/campaign.json` e valida todas as referências (faixas, mapas, áreas de missões e chefes, retratos) |
+| `npm run fetch:portraits` | Baixa os retratos listados em `data/portraits.json` (slug → arquivo da PoE Wiki) para `assets/portraits/`; pula os existentes, `--force` baixa de novo |
 | `npm run copy:audio -- <pasta>` | Copia a trilha sonora usada pelo site |
 | `npm run capture` | Regenera as imagens e GIFs do README em `docs/media` (precisa do app rodando, Google Chrome e `ffmpeg`) |
 
@@ -129,6 +131,6 @@ As posições dos nós seguem as imagens oficiais de waypoint. Alguns nós foram
 
 ## Créditos e licença
 
-- Os textos de lore são resumidos e traduzidos da [Path of Exile Wiki](https://www.poewiki.net) da comunidade, licenciada em [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/deed.pt_BR). O texto derivado em `data/` é compartilhado sob a mesma licença.
+- Os textos de lore são resumidos e traduzidos da [Path of Exile Wiki](https://www.poewiki.net) da comunidade, licenciada em [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/deed.pt_BR). O texto derivado em `data/` é compartilhado sob a mesma licença. Os retratos de chefes e NPCs em `assets/portraits/` são capturas do jogo hospedadas pela PoE Wiki.
 - Path of Exile, seus mapas, artes e músicas são propriedade intelectual da **Grinding Gear Games**. Este é um projeto de fã não oficial, sem vínculo nem endosso da Grinding Gear Games.
 - Código-fonte: [MIT](LICENSE).
