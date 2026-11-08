@@ -1,0 +1,13 @@
+**/node_modules
+**/dist
+.git
+.env
+.env.*
+*.log
+# Trilha sonora: entra via mount em /audio, nunca na imagem.
+server/public/audio
+prototypes
+research
+docs
+# Windows-generated lock omits Linux optional deps (npm #4828); resolve fresh.
+package-lock.json

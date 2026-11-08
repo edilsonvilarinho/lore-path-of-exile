@@ -1,0 +1,46 @@
+{
+  "n": 7, "map": "waypoint_map_act_7.jpg", "w": 606, "h": 385, "levels": "50–55", "town": "The Bridge Encampment", "track": "bridge-encampment",
+  "title": { "en": "The Spider's Web", "pt": "A Teia da Aranha" },
+  "story": {
+    "en": "Beyond the reef lies the Bridge Encampment, where the old pirate Weylam Roth and the survivors of the Forest Encampment have regrouped. A Vaal relic washed ashore and Greust has been possessed by Ralakesh, the 'Master of a Million Faces'. Sin wants his second soul, Maligaro, now hiding in a Sanctum reached through Maligaro's Map from the Crypt. Silk keeps asking for the venom of the spiders, and something is wrong with him. In the Dread Thicket, Gruthkul, the grieving Mother of Despair, waits; on the Causeway lies the relic Kishara's Star. Yeena brews the Fire Dew from seven fireflies to burn through the webs of Arakaali's Temple of Decay. Silk welcomes you as a groom: 'My bride has arrived!' You kill the goddess, but you cannot save him.",
+    "pt": "Depois do recife fica a Bridge Encampment, onde o velho pirata Weylam Roth e os sobreviventes da Forest Encampment se reagruparam. Uma relíquia Vaal chegou à praia e Greust foi possuído por Ralakesh, o 'Mestre de Mil Faces'. Sin quer sua segunda alma, Maligaro, agora escondido num Sanctum acessado pelo Maligaro's Map, achado na Crypt. Silk não para de pedir o veneno das aranhas, e há algo errado com ele. No Dread Thicket espera Gruthkul, a enlutada Mãe do Desespero; no Causeway está a relíquia Kishara's Star. Yeena prepara o Fire Dew com sete vaga-lumes para queimar as teias do Temple of Decay de Arakaali. Silk recebe você como um noivo: 'Minha noiva chegou!' Você mata a deusa, mas não consegue salvá-lo."
+  },
+  "npcs": [
+    { "name": "Weylam Roth", "role": { "en": "Old pirate, Lilly's grandfather", "pt": "Velho pirata, avô de Lilly" } },
+    { "name": "Helena, Eramir, Yeena, Silk", "role": { "en": "Survivors of the Forest Encampment", "pt": "Sobreviventes da Forest Encampment" } },
+    { "name": "Sin", "role": { "en": "Wants Maligaro's soul", "pt": "Quer a alma de Maligaro" } }
+  ],
+  "bosses": [
+    { "name": "Maligaro, the Artist", "area": "2_7_5_map", "lore": { "en": "Burned at the stake by Voll, he had stored his spirit in a map made of his own viscera: Maligaro's Sanctum.", "pt": "Queimado na fogueira por Voll, ele guardou o espírito num mapa feito das próprias vísceras: o Maligaro's Sanctum." } },
+    { "name": "Greust / Ralakesh", "area": "2_7_6", "track": "den", "lore": { "en": "Ralakesh, the Vaal god of a million faces, obsessed with controlling humanity through animal instincts. He possesses Greust through a relic.", "pt": "Ralakesh, o deus Vaal de mil faces, obcecado em controlar a humanidade pelos instintos animais. Possui Greust por meio de uma relíquia." } },
+    { "name": "Gruthkul, Mother of Despair", "area": "2_7_9", "lore": { "en": "A Nameless from the Wildwood. The Vaal slaughtered her children; grief turned her into a bear-like goddess. Arakaali buried her under a cavern.", "pt": "Uma Nameless da Mata Viridiana. Os Vaal massacraram seus filhos; o luto a transformou numa deusa ursina. Arakaali a enterrou sob uma caverna." } },
+    { "name": "Arakaali, Spinner of Shadows", "area": "2_7_11", "final": true, "track": "arakaali", "lore": { "en": "Spider goddess of the Azmeri and the Vaal, once a mortal seductress who drained her lovers. Silk becomes her groom.", "pt": "Deusa aranha dos Azmeri e dos Vaal, antes uma sedutora mortal que drenava seus amantes. Silk vira o noivo dela." } }
+  ],
+  "quests": [
+    { "name": "The Silver Locket", "req": false, "area": "2_7_1", "sum": { "en": "Weylam buried a lockbox near the Broken Bridge with a portrait of his late wife, Meredith.", "pt": "Weylam enterrou um baú perto da Broken Bridge com o retrato da falecida esposa, Meredith." } },
+    { "name": "Essence of the Artist", "req": true, "boss": "Maligaro", "area": "2_7_5_map", "sum": { "en": "Take Maligaro's Map from the Crypt, open it in the Chamber of Sins and kill Maligaro so Sin can harvest his soul.", "pt": "Pegue o Maligaro's Map na Crypt, abra-o na Chamber of Sins e mate Maligaro para Sin colher sua alma." } },
+    { "name": "Web of Secrets", "req": true, "area": "2_7_5_1", "sum": { "en": "Bring Silk the Black Venom from Maligaro's Sanctum. He gives you the Obsidian Key.", "pt": "Leve a Silk o Black Venom do Maligaro's Sanctum. Ele dá a você a Obsidian Key." } },
+    { "name": "The Master of a Million Faces", "req": true, "boss": "Greust / Ralakesh", "area": "2_7_6", "sum": { "en": "Eramir translates the Vaal relic: Ralakesh. Kill his avatar, Greust, and the god retreats into the relic.", "pt": "Eramir traduz a relíquia Vaal: Ralakesh. Mate o avatar dele, Greust, e o deus recua para a relíquia." } },
+    { "name": "In Memory of Greust", "req": false, "area": "2_7_8", "sum": { "en": "Helena asks you to place Greust's fang necklace on the Azmeri shrine so his spirit can rest.", "pt": "Helena pede que você coloque o colar de presas de Greust no santuário Azmeri para que o espírito dele descanse." } },
+    { "name": "Queen of Despair", "req": false, "boss": "Gruthkul", "area": "2_7_9", "sum": { "en": "Sin: 'There is no fury like a mother bereaved.' Kill Gruthkul in the Den of Despair.", "pt": "Sin: 'Não há fúria como a de uma mãe enlutada.' Mate Gruthkul no Den of Despair." } },
+    { "name": "Kishara's Star", "req": false, "area": "2_7_10", "sum": { "en": "Weylam wants the Vaal explorer Kishara's Star to give to his granddaughter Lilly.", "pt": "Weylam quer a Star da exploradora Vaal Kishara para dar à neta, Lilly." } },
+    { "name": "Lighting the Way", "req": true, "area": "2_7_9", "sum": { "en": "Collect seven fireflies in the Dread Thicket so Yeena can brew the Fire Dew.", "pt": "Junte sete vaga-lumes no Dread Thicket para Yeena preparar o Fire Dew." } },
+    { "name": "The Mother of Spiders", "req": true, "boss": "Arakaali", "area": "2_7_11", "sum": { "en": "Yeena: Silk walked 'into the eight arms of blind lust'. Kill Arakaali in the Temple of Decay. Silk cannot be saved.", "pt": "Yeena: Silk caminhou 'para os oito braços da luxúria cega'. Mate Arakaali no Temple of Decay. Silk não pode ser salvo." } }
+  ],
+  "nodes": [
+    { "id": "2_7_town", "name": "The Bridge Encampment", "x": 455, "y": 147, "town": true, "track": "bridge-encampment" },
+    { "id": "2_7_1", "name": "The Broken Bridge", "x": 416, "y": 158, "lvl": 50 },
+    { "id": "2_7_2", "name": "The Crossroads", "x": 396, "y": 216, "wp": true, "lvl": 51 },
+    { "id": "2_7_3", "name": "The Fellshrine Ruins", "x": 447, "y": 271, "lvl": 51, "track": "fellshrine" },
+    { "id": "2_7_4", "name": "The Crypt", "x": 498, "y": 279, "wp": true, "lvl": 51 },
+    { "id": "2_7_5_1", "name": "The Chamber of Sins Level 1", "also": "Level 2", "x": 337, "y": 158, "wp": true, "lvl": 52, "track": "chamber-sins" },
+    { "id": "2_7_5_map", "name": "Maligaro's Sanctum", "x": 293, "y": 135, "lvl": 52 },
+    { "id": "2_7_6", "name": "The Den", "x": 328, "y": 234, "wp": true, "lvl": 53, "track": "den" },
+    { "id": "2_7_7", "name": "The Ashen Fields", "x": 327, "y": 309, "wp": true, "lvl": 53, "track": "fields" },
+    { "id": "2_7_8", "name": "The Northern Forest", "x": 114, "y": 207, "wp": true, "lvl": 53 },
+    { "id": "2_7_9", "name": "The Dread Thicket", "x": 65, "y": 232, "lvl": 53 },
+    { "id": "2_7_10", "name": "The Causeway", "x": 138, "y": 137, "wp": true, "lvl": 54 },
+    { "id": "2_7_11", "name": "The Vaal City", "x": 104, "y": 108, "wp": true, "lvl": 54, "track": "shadow-vaal" },
+    { "id": "2_7_12_1", "name": "The Temple of Decay", "also": "Level 2", "x": 65, "y": 93, "lvl": 54, "track": "arakaali" }
+  ]
+}

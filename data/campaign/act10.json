@@ -1,0 +1,39 @@
+{
+  "n": 10, "map": "waypoint_map_act_10.jpg", "w": 592, "h": 376, "levels": "64–67", "town": "Oriath Docks", "track": "oriath-dock",
+  "title": { "en": "An End to Hunger", "pt": "Um Fim à Fome" },
+  "story": {
+    "en": "Lilly Roth sails you back to Oriath, now a ruin where Kitava feeds. The Overseer's Tower has fallen: Vilenta let the cultists in through a secret ladder, and Kitava's gaze has turned her into something worse. Bannon held the rooftops so Lani could escape. Kitava's feast is sealed behind two black gates, 'Kitava's Horns'. Bannon asks for the Staff of Avarius from the ruined Chamber of Innocence, then confesses its true purpose: to fully reawaken Innocence. The god breaks the Horns ('Bone and corruption shall not impede the path of purity!'), and with Sin and Innocence fighting at your side you descend through the Canals to the Feeding Trough and kill Kitava at the Altar of Hunger. Sin: 'Your world may have exiled you, but there will always be a place for you at my table.' Lilly sails you to the Karui Shores, and the Atlas begins.",
+    "pt": "Lilly Roth leva você de volta a Oriath, agora uma ruína onde Kitava se alimenta. A Overseer's Tower caiu: Vilenta deixou os cultistas entrarem por uma escada secreta, e o olhar de Kitava a transformou em algo pior. Bannon segurou os telhados para Lani escapar. O banquete de Kitava está selado atrás de dois portões negros, os 'Chifres de Kitava'. Bannon pede o Cajado de Avarius da arruinada Chamber of Innocence e depois confessa o verdadeiro propósito dele: despertar Innocence por completo. O deus quebra os Chifres ('Osso e corrupção não impedirão o caminho da pureza!') e, com Sin e Innocence lutando ao seu lado, você desce pelos Canals até o Feeding Trough e mata Kitava no Altar of Hunger. Sin: 'Seu mundo pode ter exilado você, mas sempre haverá um lugar para você à minha mesa.' Lilly leva você até as Karui Shores, e começa o Atlas."
+  },
+  "npcs": [
+    { "name": "Lani", "role": { "en": "Karui leader, rewards the final quest", "pt": "Líder Karui, recompensa a missão final" } },
+    { "name": "Bannon", "role": { "en": "Templar who holds the Staff of Purity", "pt": "Templário que guarda o Staff of Purity" } },
+    { "name": "Weylam & Lilly Roth", "role": { "en": "Grandfather and granddaughter, reunited", "pt": "Avô e neta, reunidos" } },
+    { "name": "Divinia", "role": { "en": "Templar archivist (Forbidden Sanctum)", "pt": "Arquivista Templária (Forbidden Sanctum)" } }
+  ],
+  "bosses": [
+    { "name": "Plaguewing", "area": "2_10_1", "track": "cathedral-rooftop", "lore": { "en": "A winged horror besieging Bannon on the Cathedral Rooftop.", "pt": "Um horror alado cercando Bannon no Cathedral Rooftop." } },
+    { "name": "Vilenta", "area": "2_10_7", "track": "control-blocks", "lore": { "en": "The scientist who listened to corruption. She betrayed the Overseer's Tower to Kitava and was transformed by his gaze.", "pt": "A cientista que escutava a corrupção. Traiu a Overseer's Tower para Kitava e foi transformada pelo olhar dele." } },
+    { "name": "Kitava, the Insatiable", "area": "2_10_6", "final": true, "track": "altar-hunger", "lore": { "en": "The Ravenous God, finally killed at his own Altar of Hunger with Sin and Innocence fighting together.", "pt": "O Deus Voraz, enfim morto no próprio Altar of Hunger, com Sin e Innocence lutando juntos." } }
+  ],
+  "quests": [
+    { "name": "Safe Passage", "req": true, "boss": "Plaguewing", "area": "2_10_1", "sum": { "en": "Lani: the tower fell because of Vilenta. Save Bannon from the cultists on the Cathedral Rooftop.", "pt": "Lani: a torre caiu por causa de Vilenta. Salve Bannon dos cultistas no Cathedral Rooftop." } },
+    { "name": "Death and Rebirth", "req": true, "area": "2_10_4", "sum": { "en": "Find the Staff of Purity in the Desecrated Chambers. Bannon admits it can wake Innocence fully.", "pt": "Ache o Staff of Purity nas Desecrated Chambers. Bannon admite que ele pode despertar Innocence por completo." } },
+    { "name": "Vilenta's Vengeance", "req": false, "boss": "Vilenta", "area": "2_10_7", "sum": { "en": "Lani asks you to hunt down the traitor Vilenta in the Control Blocks.", "pt": "Lani pede que você cace a traidora Vilenta nos Control Blocks." } },
+    { "name": "Map to Tsoatha", "req": false, "area": "2_10_2", "sum": { "en": "Lilly wants The Teardrop, a pearl carved with the location of the Brine King's sunken city, stolen by Templar privateers.", "pt": "Lilly quer The Teardrop, uma pérola gravada com a localização da cidade submersa do Brine King, roubada por corsários Templários." } },
+    { "name": "No Love for Old Ghosts", "req": false, "area": "2_10_9", "sum": { "en": "Weylam wants Atziri's Elixir of Allure, kept in the skull of her favourite lover. It doesn't work.", "pt": "Weylam quer o Elixir of Allure de Atziri, guardado no crânio do amante favorito dela. Não funciona." } },
+    { "name": "An End to Hunger", "req": true, "boss": "Kitava", "area": "2_10_6", "sum": { "en": "Innocence destroys Kitava's Horns. Follow the Canals to the Feeding Trough and kill Kitava for good.", "pt": "Innocence destrói os Chifres de Kitava. Siga os Canals até o Feeding Trough e mate Kitava de vez." } },
+    { "name": "Toward the Future", "req": true, "area": "2_10_town", "sum": { "en": "Talk to Lilly Roth and set sail for the Epilogue: the Karui Shores and the Atlas of Worlds.", "pt": "Fale com Lilly Roth e zarpe para o Epílogo: as Karui Shores e o Atlas of Worlds." } }
+  ],
+  "nodes": [
+    { "id": "2_10_town", "name": "Oriath Docks", "x": 173, "y": 41, "town": true, "track": "oriath-dock" },
+    { "id": "2_10_1", "name": "The Cathedral Rooftop", "x": 224, "y": 87, "lvl": 64, "track": "cathedral-rooftop" },
+    { "id": "2_10_2", "name": "The Ravaged Square", "x": 267, "y": 149, "wp": true, "lvl": 64, "track": "ruined-square" },
+    { "id": "2_10_9", "name": "The Ossuary", "x": 451, "y": 100, "lvl": 67, "track": "ossuary" },
+    { "id": "2_10_5", "name": "The Canals", "x": 421, "y": 148, "lvl": 66 },
+    { "id": "2_10_6", "name": "The Feeding Trough", "also": "Altar of Hunger", "x": 493, "y": 143, "lvl": 67, "track": "altar-hunger" },
+    { "id": "2_10_7", "name": "The Control Blocks", "x": 215, "y": 276, "wp": true, "lvl": 66, "track": "control-blocks", "unverified": true },
+    { "id": "2_10_3", "name": "The Torched Courts", "x": 473, "y": 291, "lvl": 65, "track": "templar-courts" },
+    { "id": "2_10_4", "name": "The Desecrated Chambers", "x": 434, "y": 333, "wp": true, "lvl": 65, "track": "chamber-innocence" }
+  ]
+}

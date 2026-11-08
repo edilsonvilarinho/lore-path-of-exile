@@ -1,0 +1,42 @@
+{
+  "n": 5, "map": "waypoint_map_act_5.jpg", "w": 610, "h": 385, "levels": "41–45", "town": "Overseer's Tower", "track": "overseers-tower",
+  "title": { "en": "The Fall of Oriath", "pt": "A Queda de Oriath" },
+  "story": {
+    "en": "The machine at the top of the Ascent opens a portal home: to the Slave Pens of Oriath. The island that exiled you is a theocracy built on Karui slaves. With the Beast dead, its gods begin to wake. With the Karui Lani and the scientist Vilenta, you break through the Control Blocks and Oriath Square into the Templar Courts. In the Chamber of Innocence you kill High Templar Avarius and Innocence himself, the god of the Templar faith. His fall is exactly what Utula, high priest of a Kitava cult among the slaves, was waiting for: he performs the King's Feast and pulls Kitava, the Ravenous God, out of a river of blood. Armed with the Sign of Purity from the Ossuary, you face Kitava on the Cathedral Rooftop. He shatters the Sign and cannot be killed. Captain Lilly Roth takes you back to Wraeclast.",
+    "pt": "A máquina no topo do Ascent abre um portal para casa: os Slave Pens de Oriath. A ilha que exilou você é uma teocracia construída sobre escravos Karui. Com a Besta morta, os deuses começam a acordar. Com a Karui Lani e a cientista Vilenta, você passa pelos Control Blocks e pela Oriath Square até os Templar Courts. Na Chamber of Innocence você mata o Alto Templário Avarius e o próprio Innocence, o deus da fé Templária. A queda dele é exatamente o que Utula, sumo sacerdote de um culto a Kitava entre os escravos, esperava: ele realiza o King's Feast e puxa Kitava, o Deus Voraz, de um rio de sangue. Com o Sign of Purity do Ossuary, você enfrenta Kitava no Cathedral Rooftop. Ele destrói o Sign e não pode ser morto. A capitã Lilly Roth leva você de volta a Wraeclast."
+  },
+  "npcs": [
+    { "name": "Lani", "role": { "en": "Karui slave leader", "pt": "Líder dos escravos Karui" } },
+    { "name": "Vilenta", "role": { "en": "Scientist who listens to corruption", "pt": "Cientista que escuta a corrupção" } },
+    { "name": "Bannon", "role": { "en": "Templar who loves Oriath", "pt": "Templário que ama Oriath" } },
+    { "name": "Sin", "role": { "en": "The god who created the Beast", "pt": "O deus que criou a Besta" } },
+    { "name": "Lilly Roth", "role": { "en": "Ship captain, Weylam's granddaughter", "pt": "Capitã de navio, neta de Weylam" } }
+  ],
+  "bosses": [
+    { "name": "Overseer Krow", "area": "1_5_1", "lore": { "en": "Overseer of the Slave Pens.", "pt": "Supervisor dos Slave Pens." } },
+    { "name": "Justicar Casticus", "area": "1_5_2", "track": "control-blocks", "lore": { "en": "Templar justicar of the Control Blocks. Drops the Eyes of Zeal, key to the Templar Courts.", "pt": "Justicar Templário dos Control Blocks. Deixa cair os Eyes of Zeal, chave dos Templar Courts." } },
+    { "name": "High Templar Avarius & Innocence", "area": "1_5_5", "track": "avarius", "lore": { "en": "The High Templar of Oriath and the god behind the faith. Innocence rose by turning his followers' hatred against his twin, Sin.", "pt": "O Alto Templário de Oriath e o deus por trás da fé. Innocence ascendeu voltando o ódio dos seguidores contra o gêmeo, Sin." } },
+    { "name": "Utula, Stone and Steel", "area": "1_5_3b", "track": "ruined-square", "lore": { "en": "High priest of the Kitava cult. You kill him, but not before he completes the ritual.", "pt": "Sumo sacerdote do culto de Kitava. Você o mata, mas não antes de ele completar o ritual." } },
+    { "name": "Kitava, the Insatiable", "area": "1_5_8", "final": true, "track": "kitava", "lore": { "en": "Karui god born of Hunger, punished by Tukohama, Valako and Hinekora and bound in the underworld. Free again, he devours Oriath.", "pt": "Deus Karui nascido da Fome, punido por Tukohama, Valako e Hinekora e preso no submundo. Livre de novo, ele devora Oriath." } }
+  ],
+  "quests": [
+    { "name": "Return to Oriath", "req": true, "boss": "Overseer Krow", "area": "1_5_1", "sum": { "en": "Cross the portal from the Ascent into the Slave Pens and kill Overseer Krow.", "pt": "Atravesse o portal do Ascent até os Slave Pens e mate o Overseer Krow." } },
+    { "name": "The Key to Freedom", "req": true, "boss": "Justicar Casticus", "area": "1_5_2", "sum": { "en": "Kill Justicar Casticus in the Control Blocks for the Eyes of Zeal.", "pt": "Mate o Justicar Casticus nos Control Blocks pelos Eyes of Zeal." } },
+    { "name": "In Service to Science", "req": false, "area": "1_5_2", "sum": { "en": "Vilenta's Miasmeter heard 'the scream' of the Beast dying. She wants it back from Piety's old lab.", "pt": "O Miasmeter de Vilenta ouviu 'o grito' da Besta morrendo. Ela quer ele de volta do antigo laboratório de Piety." } },
+    { "name": "Death to Purity", "req": true, "boss": "Avarius & Innocence", "area": "1_5_5", "sum": { "en": "Open the Templar Courts and kill High Templar Avarius and Innocence in the Sanctum of Innocence.", "pt": "Abra os Templar Courts e mate o Alto Templário Avarius e Innocence no Sanctum of Innocence." } },
+    { "name": "The King's Feast", "req": false, "boss": "Utula", "area": "1_5_3b", "sum": { "en": "Bannon: Utula wants the fall of one god to raise his own. You kill Utula, but Kitava is already out of the river of blood.", "pt": "Bannon: Utula quer a queda de um deus para erguer o seu. Você mata Utula, mas Kitava já saiu do rio de sangue." } },
+    { "name": "Kitava's Torments", "req": false, "area": "1_5_7", "sum": { "en": "Lani wants the three relics used to punish Kitava, stolen by the Templar: Hinekora's Hair, Tukohama's Tooth and Valako's Jaw.", "pt": "Lani quer as três relíquias usadas para punir Kitava, roubadas pelos Templários: Hinekora's Hair, Tukohama's Tooth e Valako's Jaw." } },
+    { "name": "The Ravenous God", "req": true, "boss": "Kitava", "area": "1_5_8", "sum": { "en": "Take the Sign of Purity from the Ossuary to the Cathedral Rooftop. Kitava destroys it and survives. Board Lilly Roth's ship.", "pt": "Leve o Sign of Purity do Ossuary até o Cathedral Rooftop. Kitava o destrói e sobrevive. Embarque no navio de Lilly Roth." } }
+  ],
+  "nodes": [
+    { "id": "1_5_town", "name": "Overseer's Tower", "x": 110, "y": 192, "town": true, "track": "overseers-tower" },
+    { "id": "1_5_1", "name": "The Slave Pens", "x": 50, "y": 201, "wp": true, "lvl": 41 },
+    { "id": "1_5_2", "name": "The Control Blocks", "x": 155, "y": 236, "lvl": 41, "track": "control-blocks" },
+    { "id": "1_5_3b", "name": "The Ruined Square", "also": "Oriath Square, The Templar Courts (before Innocence)", "x": 274, "y": 151, "wp": true, "lvl": 44, "track": "ruined-square" },
+    { "id": "1_5_8", "name": "The Cathedral Rooftop", "x": 229, "y": 88, "wp": true, "lvl": 45, "track": "cathedral-rooftop" },
+    { "id": "1_5_6", "name": "The Ossuary", "x": 464, "y": 101, "lvl": 44, "track": "ossuary" },
+    { "id": "1_5_7", "name": "The Reliquary", "x": 220, "y": 283, "wp": true, "lvl": 44 },
+    { "id": "1_5_4b", "name": "The Torched Courts", "x": 486, "y": 296, "lvl": 44, "track": "templar-courts" },
+    { "id": "1_5_5", "name": "The Chamber of Innocence", "x": 445, "y": 340, "wp": true, "lvl": 43, "track": "chamber-innocence" }
+  ]
+}

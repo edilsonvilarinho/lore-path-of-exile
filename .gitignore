@@ -1,0 +1,12 @@
+node_modules/
+dist/
+# Lock gerado no Windows omite binários nativos Linux/macOS do Rolldown/Vite (npm #4828); cada máquina resolve o seu.
+package-lock.json
+*.log
+.env
+.env.*
+# Trilha sonora oficial (Grinding Gear Games): uso pessoal, não versionar nem redistribuir.
+server/public/audio/
+# Protótipos de UI e seu servidor estático ficam só local.
+prototypes/
+scripts/serve.mjs

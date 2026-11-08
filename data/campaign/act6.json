@@ -1,0 +1,48 @@
+{
+  "n": 6, "map": "waypoint_map_act_6.jpg", "w": 606, "h": 385, "levels": "45–50", "town": "Lioneye's Watch", "track": "still-alive",
+  "title": { "en": "Return to the Coast", "pt": "De Volta à Costa" },
+  "story": {
+    "en": "Lilly Roth lands you back at Lioneye's Watch. The killing of the Beast changed Wraeclast: the gods it kept asleep are stirring, and the drowned dead of refugee ships wash ashore. Sin appears with a plan. The Dark Ember, the seed that grew the Beast, is still inside its corpse; to rekindle it he needs three resilient souls released with the Beast's last breath: Shavronne, Maligaro and Doedre. Shavronne has returned to Axiom Prison. On the way you face Tukohama, the Karui god of war, in the Karui Fortress, Abberath the goatmen god at Prisoner's Gate, and Ryslatha, the Azmeri goddess turned Puppet Mistress, in the Wetlands. Then Nessa vanishes: the Brine King has turned her into a mermaid. You relight the Beacon and Weylam Roth sails you to Tsoagoth's reef.",
+    "pt": "Lilly Roth deixa você de volta em Lioneye's Watch. A morte da Besta mudou Wraeclast: os deuses que ela mantinha dormindo estão despertando, e os afogados dos navios de refugiados chegam à praia. Sin aparece com um plano. A Brasa Sombria, a semente que gerou a Besta, ainda está dentro do cadáver dela; para reacendê-la ele precisa de três almas resistentes libertadas no último suspiro da Besta: Shavronne, Maligaro e Doedre. Shavronne voltou à Axiom Prison. No caminho você enfrenta Tukohama, o deus Karui da guerra, na Karui Fortress, Abberath, o deus dos homens-bode, no Prisoner's Gate, e Ryslatha, a deusa Azmeri transformada em Mestra das Marionetes, nos Wetlands. Então Nessa desaparece: o Brine King a transformou em sereia. Você reacende o Beacon e Weylam Roth leva você até o recife de Tsoagoth."
+  },
+  "npcs": [
+    { "name": "Lilly Roth", "role": { "en": "Captain; sells every skill gem", "pt": "Capitã; vende todas as gemas" } },
+    { "name": "Sin", "role": { "en": "Wants to harvest three souls", "pt": "Quer colher três almas" } },
+    { "name": "Tarkleigh, Bestel", "role": { "en": "Old friends from Act 1", "pt": "Velhos amigos do Ato 1" } },
+    { "name": "Dannig", "role": { "en": "Kalguuran, starts the Lost Expedition", "pt": "Kalguurano, inicia a Lost Expedition" } }
+  ],
+  "bosses": [
+    { "name": "Tukohama, Karui God of War", "area": "2_6_5", "lore": { "en": "The god who put axes in the hands of the peaceful Karui. His voice was the one Malachai imitated to lure Kaom.", "pt": "O deus que pôs machados nas mãos dos pacíficos Karui. Foi a voz dele que Malachai imitou para atrair Kaom." } },
+    { "name": "Shavronne the Returned & Brutus", "area": "2_6_7_1", "track": "shavronne-brutus", "lore": { "en": "Shavronne of Umbra, Malachai's disciple of transfiguration, back in her tower with the warden she transformed.", "pt": "Shavronne of Umbra, discípula de Malachai na transfiguração, de volta à torre com o carcereiro que ela transformou." } },
+    { "name": "Abberath, the Cloven One", "area": "2_6_8", "lore": { "en": "God of the goatmen. Legend says he eats his sacrifices, meat and soul.", "pt": "Deus dos homens-bode. A lenda diz que ele come os sacrifícios, carne e alma." } },
+    { "name": "Ryslatha, the Puppet Mistress", "area": "2_6_11", "lore": { "en": "Azmeri goddess of motherhood. After Tukohama slaughtered her tribe, she resolved to make 'everyone's children her children', through parasites.", "pt": "Deusa Azmeri da maternidade. Depois que Tukohama massacrou sua tribo, decidiu fazer dos 'filhos de todos os seus filhos', por meio de parasitas." } },
+    { "name": "Tsoagoth, The Brine King", "area": "2_6_15", "final": true, "track": "brine-king", "lore": { "en": "Lord of the sunken city of Tsoatha. He transforms Nessa and wants her as his bride.", "pt": "Senhor da cidade submersa de Tsoatha. Transforma Nessa e a quer como noiva." } }
+  ],
+  "quests": [
+    { "name": "Fallen from Grace", "req": false, "area": "2_6_1", "sum": { "en": "Drowned Oriathan refugees are rising on the Twilight Strand. Lilly asks you to clear them.", "pt": "Refugiados de Oriath afogados estão se erguendo na Twilight Strand. Lilly pede que você os limpe." } },
+    { "name": "Bestel's Epic", "req": false, "area": "2_6_3", "sum": { "en": "Recover Bestel's play, 'Cedric and the Buxom Stranger', from his wreck on the Tidal Island.", "pt": "Recupere a peça de Bestel, 'Cedric and the Buxom Stranger', do naufrágio na Tidal Island." } },
+    { "name": "The Father of War", "req": true, "boss": "Tukohama", "area": "2_6_5", "sum": { "en": "The Submerged Passage is flooded again. Take the Eye of Conquest from the Dishonoured Queen, open the totem and kill Tukohama in his keep.", "pt": "A Submerged Passage inundou de novo. Pegue o Eye of Conquest da Dishonoured Queen, abra o totem e mate Tukohama na fortaleza dele." } },
+    { "name": "Essence of Umbra", "req": true, "boss": "Shavronne", "area": "2_6_7_1", "sum": { "en": "Sin: 'Three hearts were silenced, three hearts must sing again.' Kill Shavronne in her tower so Sin can harvest her soul.", "pt": "Sin: 'Três corações silenciaram, três corações devem cantar de novo.' Mate Shavronne na torre dela para Sin colher sua alma." } },
+    { "name": "The Cloven One", "req": true, "boss": "Abberath", "area": "2_6_8", "sum": { "en": "Bestel asks you to kill Abberath. He celebrates with a terrible poem.", "pt": "Bestel pede que você mate Abberath. Ele comemora com um poema terrível." } },
+    { "name": "The Puppet Mistress", "req": false, "boss": "Ryslatha", "area": "2_6_11", "sum": { "en": "Tarkleigh found animals taken over by parasites. Destroy the nests in the Spawning Ground and kill their queen.", "pt": "Tarkleigh encontrou animais dominados por parasitas. Destrua os ninhos no Spawning Ground e mate a rainha deles." } },
+    { "name": "The Brine King", "req": true, "boss": "Tsoagoth", "area": "2_6_15", "sum": { "en": "Nessa vanished near the Mud Flats. She is now a mermaid, begging for help. Relight the Beacon and sail to the Brine King's Reef.", "pt": "Nessa sumiu perto dos Mud Flats. Agora é uma sereia, implorando ajuda. Reacenda o Beacon e navegue até o Brine King's Reef." } }
+  ],
+  "nodes": [
+    { "id": "2_6_1", "name": "The Twilight Strand", "x": 118, "y": 351, "lvl": 45 },
+    { "id": "2_6_town", "name": "Lioneye's Watch", "x": 131, "y": 320, "town": true, "track": "still-alive" },
+    { "id": "2_6_2", "name": "The Coast", "x": 135, "y": 283, "wp": true, "lvl": 45, "track": "coast" },
+    { "id": "2_6_3", "name": "The Tidal Island", "x": 162, "y": 303, "lvl": 45 },
+    { "id": "2_6_4", "name": "The Mud Flats", "x": 158, "y": 256, "lvl": 46 },
+    { "id": "2_6_5", "name": "The Karui Fortress", "x": 121, "y": 232, "lvl": 46 },
+    { "id": "2_6_6", "name": "The Ridge", "x": 118, "y": 178, "wp": true, "lvl": 46 },
+    { "id": "2_6_7_1", "name": "The Lower Prison", "also": "Shavronne's Tower", "x": 141, "y": 134, "wp": true, "lvl": 47, "track": "shavronne-brutus" },
+    { "id": "2_6_8", "name": "Prisoner's Gate", "x": 182, "y": 134, "wp": true, "lvl": 47 },
+    { "id": "2_6_9", "name": "The Western Forest", "x": 189, "y": 100, "wp": true, "lvl": 48 },
+    { "id": "2_6_10", "name": "The Riverways", "x": 249, "y": 121, "wp": true, "lvl": 48, "track": "riverways" },
+    { "id": "2_6_11", "name": "The Wetlands", "x": 235, "y": 87, "lvl": 48 },
+    { "id": "2_6_12", "name": "The Southern Forest", "x": 304, "y": 134, "wp": true, "lvl": 49 },
+    { "id": "2_6_13", "name": "The Cavern of Anger", "x": 310, "y": 168, "lvl": 49, "track": "cavern-anger" },
+    { "id": "2_6_14", "name": "The Beacon", "x": 364, "y": 168, "wp": true, "lvl": 49 },
+    { "id": "2_6_15", "name": "The Brine King's Reef", "x": 482, "y": 133, "wp": true, "lvl": 50, "track": "brine-king" }
+  ]
+}

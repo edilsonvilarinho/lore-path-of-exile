@@ -1,0 +1,52 @@
+{
+  "n": 2, "map": "waypoint_map_act_2.jpg", "w": 610, "h": 385, "levels": "13–23", "town": "The Forest Encampment", "track": "forest-encampment",
+  "title": { "en": "The Southern Forest and the Darkness", "pt": "A Floresta do Sul e a Escuridão" },
+  "story": {
+    "en": "Past Merveil's lair lies the Southern Forest and a small Azmeri village, descendants of those who did not follow Tarcus Veruso down the mountains. Three exile bandit lords, Kraityn, Alira and Oak, squeeze the village for tribute. Worse, Blackguards in black armour from Oriath are searching the Chamber of Sins for a creation of Maligaro: the Baleful Gem. Their leader is Piety, a Templar thaumaturge. One of them, Helena, defects to your side. With Maligaro's Spike (Silk's spear, stuck in the eye of the Weaver) and the Baleful Gem you poison Lorrata, the giant tree whose roots hold the Vaal Ruins shut. Touching the Ancient Seal inside releases an ancient darkness and blots out the sun. To send it home you need the Apex, an artefact formed from the bandits' amulets, and you climb the Ancient Pyramid to destroy the Vaal Oversoul, a construct built to house that darkness.",
+    "pt": "Depois do covil de Merveil fica a Floresta do Sul e uma pequena aldeia Azmeri, descendentes dos que não seguiram Tarcus Veruso montanha abaixo. Três lordes bandidos exilados, Kraityn, Alira e Oak, cobram tributo da aldeia. Pior: Blackguards de armadura negra vindos de Oriath vasculham a Chamber of Sins atrás de uma criação de Maligaro, a Baleful Gem. A líder deles é Piety, uma taumaturga Templária. Uma delas, Helena, deserta para o seu lado. Com o Maligaro's Spike (a lança de Silk, cravada no olho do Weaver) e a Baleful Gem, você envenena Lorrata, a árvore gigante cujas raízes mantêm as Vaal Ruins fechadas. Tocar o Ancient Seal lá dentro libera uma escuridão antiga e apaga o sol. Para mandá-la de volta você precisa do Apex, um artefato formado pelos amuletos dos bandidos, e sobe a Ancient Pyramid para destruir o Vaal Oversoul, um construto feito para abrigar essa escuridão."
+  },
+  "npcs": [
+    { "name": "Greust", "role": { "en": "Azmeri warrior, vendor", "pt": "Guerreiro Azmeri, vendedor" } },
+    { "name": "Yeena", "role": { "en": "Azmeri dreamer and seer", "pt": "Sonhadora e vidente Azmeri" } },
+    { "name": "Eramir", "role": { "en": "Old Eternal scholar", "pt": "Velho estudioso Eterno" } },
+    { "name": "Silk", "role": { "en": "Azmeri hunter, wants his spear back", "pt": "Caçador Azmeri, quer a lança de volta" } },
+    { "name": "Helena", "role": { "en": "Former Blackguard of Piety's Ebony Legion", "pt": "Ex-Blackguard da Ebony Legion de Piety" } }
+  ],
+  "bosses": [
+    { "name": "The Great White Beast", "area": "1_2_2a", "lore": { "en": "A beast 'tortured and maddened by bad men, a long time gone'. Yeena dreams of it attacking the village.", "pt": "Uma fera 'torturada e enlouquecida por homens maus, há muito tempo'. Yeena sonha com ela atacando a aldeia." } },
+    { "name": "Fidelitas, the Mourning", "area": "1_2_6_1", "track": "chamber-sins", "lore": { "en": "Once Raulo, Maligaro's assistant and lover, injected with Maligaro's Spike: endless life and horrible deformity.", "pt": "Antes Raulo, assistente e amante de Maligaro, injetado com o Maligaro's Spike: vida sem fim e deformidade horrível." } },
+    { "name": "Archbishop Geofri the Abashed", "area": "1_2_5_1", "lore": { "en": "Archbishop of Phrecia Cathedral, killed by Maligaro during the Purity Rebellion. He rose as an undead guardian of the Golden Hand.", "pt": "Arcebispo da Catedral de Phrecia, morto por Maligaro durante a Rebelião da Pureza. Ressurgiu como guardião morto-vivo da Golden Hand." } },
+    { "name": "Kraityn, Alira, Oak", "area": "1_2_4", "lore": { "en": "Three exile bandit lords. Kill all three or spare one in exchange for a different reward.", "pt": "Três lordes bandidos exilados. Mate os três ou poupe um em troca de uma recompensa diferente." } },
+    { "name": "The Weaver", "area": "1_2_9", "lore": { "en": "'Mother of all eight-legs'. Silk drove his best spear, Maligaro's Spike, into her eye.", "pt": "'Mãe de todos os oito-pernas'. Silk cravou sua melhor lança, o Maligaro's Spike, no olho dela." } },
+    { "name": "Vaal Oversoul", "area": "1_2_14_2", "final": true, "track": "shadow-vaal", "lore": { "en": "A Vaal construct, 'like a massive totem', built to house the darkness that Alano Phrecia drove away in 35 IC. The Apex summons the darkness into its body so it can be destroyed.", "pt": "Um construto Vaal, 'como um totem gigante', feito para abrigar a escuridão que Alano Phrecia expulsou em 35 IC. O Apex invoca a escuridão para dentro do corpo dele para que possa ser destruída." } }
+  ],
+  "quests": [
+    { "name": "Intruders in Black", "req": true, "boss": "Fidelitas", "area": "1_2_6_1", "sum": { "en": "Greust saw warriors in black from Oriath. In the Chamber of Sins you save Helena from Fidelitas and take the Baleful Gem before Piety can.", "pt": "Greust viu guerreiros de preto vindos de Oriath. Na Chamber of Sins você salva Helena de Fidelitas e pega a Baleful Gem antes de Piety." } },
+    { "name": "Sharp and Cruel", "req": true, "boss": "The Weaver", "area": "1_2_10", "sum": { "en": "Silk wants his spear back from the eye of the Weaver. Eramir says it was made for 'dark science': it is Maligaro's Spike.", "pt": "Silk quer a lança dele de volta do olho do Weaver. Eramir diz que ela foi feita para 'ciência sombria': é o Maligaro's Spike." } },
+    { "name": "The Root of the Problem", "req": true, "area": "1_2_12", "sum": { "en": "Helena explains that Piety wants the Vaal ruin, held shut by the tree Lorrata. Use the Spike to inject the Baleful Gem's corruption into its roots.", "pt": "Helena explica que Piety quer a ruína Vaal, presa pela árvore Lorrata. Use o Spike para injetar a corrupção da Baleful Gem nas raízes." } },
+    { "name": "Deal with the Bandits", "req": true, "boss": "Kraityn, Alira, Oak", "area": "1_2_4", "sum": { "en": "Eramir asks you to deal with the three bandit lords. Their combined amulets form the Apex.", "pt": "Eramir pede que você resolva os três lordes bandidos. Os amuletos deles combinados formam o Apex." } },
+    { "name": "Shadow of the Vaal", "req": true, "boss": "Vaal Oversoul", "area": "1_2_14_2", "sum": { "en": "Breaking the Ancient Seal released a darkness. Yeena dreamed of 'a thing of shadow' climbing a man-made mountain to eat the heart of the sun. Climb the pyramid and destroy it.", "pt": "Romper o Ancient Seal liberou uma escuridão. Yeena sonhou com 'uma coisa de sombra' subindo uma montanha feita pelo homem para comer o coração do sol. Suba a pirâmide e destrua-a." } },
+    { "name": "The Great White Beast", "req": false, "boss": "The Great White Beast", "area": "1_2_2a", "sum": { "en": "Yeena asks you to end the beast's pain before it shares that pain with the village.", "pt": "Yeena pede que você acabe com a dor da fera antes que ela a divida com a aldeia." } },
+    { "name": "Through Sacred Ground", "req": false, "boss": "Archbishop Geofri", "area": "1_2_5_1", "sum": { "en": "The stones of Fellshrine told Yeena to find the hand of a 'good man'. Take the Golden Hand from the Crypt.", "pt": "As pedras de Fellshrine disseram a Yeena para achar a mão de um 'homem bom'. Pegue a Golden Hand na Crypt." } },
+    { "name": "The Way Forward", "req": false, "boss": "Captain Arteri", "area": "1_2_9", "sum": { "en": "Kill Captain Arteri, take the Thaumetic Emblem and open the seal back to Prisoner's Gate.", "pt": "Mate o capitão Arteri, pegue o Thaumetic Emblem e abra o selo de volta para o Prisoner's Gate." } }
+  ],
+  "nodes": [
+    { "id": "1_2_town", "name": "The Forest Encampment", "x": 357, "y": 211, "town": true, "track": "forest-encampment" },
+    { "id": "1_2_1", "name": "The Southern Forest", "x": 388, "y": 270, "wp": true, "lvl": 13 },
+    { "id": "1_2_2", "name": "The Old Fields", "x": 388, "y": 179, "lvl": 14, "track": "fields" },
+    { "id": "1_2_2a", "name": "The Den", "x": 420, "y": 206, "lvl": 15, "track": "den" },
+    { "id": "1_2_3", "name": "The Crossroads", "x": 415, "y": 131, "wp": true, "lvl": 15 },
+    { "id": "1_2_6_1", "name": "The Chamber of Sins Level 1", "also": "Level 2", "x": 365, "y": 82, "wp": true, "lvl": 15, "track": "chamber-sins" },
+    { "id": "1_2_4", "name": "The Broken Bridge", "x": 446, "y": 77, "wp": true, "lvl": 16 },
+    { "id": "1_2_15", "name": "The Fellshrine Ruins", "x": 459, "y": 179, "lvl": 16, "track": "fellshrine" },
+    { "id": "1_2_5_1", "name": "The Crypt Level 1", "also": "Level 2", "x": 503, "y": 186, "wp": true, "lvl": 17 },
+    { "id": "1_2_7", "name": "The Riverways", "x": 277, "y": 229, "wp": true, "lvl": 15, "track": "riverways" },
+    { "id": "1_2_9", "name": "The Western Forest", "x": 150, "y": 194, "wp": true, "lvl": 17 },
+    { "id": "1_2_10", "name": "The Weaver's Chambers", "x": 167, "y": 225, "lvl": 18 },
+    { "id": "1_2_12", "name": "The Wetlands", "x": 240, "y": 182, "wp": true, "lvl": 19 },
+    { "id": "1_2_11", "name": "The Vaal Ruins", "x": 215, "y": 148, "lvl": 20 },
+    { "id": "1_2_8", "name": "The Northern Forest", "x": 147, "y": 109, "wp": true, "lvl": 21 },
+    { "id": "1_2_13", "name": "The Dread Thicket", "x": 132, "y": 145, "lvl": 21 },
+    { "id": "1_2_14_2", "name": "The Caverns", "also": "The Ancient Pyramid", "x": 98, "y": 61, "wp": true, "lvl": 22, "track": "shadow-vaal" }
+  ]
+}

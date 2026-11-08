@@ -1,0 +1,47 @@
+{
+  "n": 1, "map": "waypoint_map_act_1.jpg", "w": 610, "h": 385, "levels": "1–13", "town": "Lioneye's Watch", "track": "lioneye",
+  "title": { "en": "The Shores of Wraeclast", "pt": "As Costas de Wraeclast" },
+  "story": {
+    "en": "Exiled by High Templar Dominus, you are thrown overboard with two dozen other criminals of Oriath and wash up on the Twilight Strand. Few survive. Up the beach lies Lioneye's Watch, a ruined Eternal outpost where General Marceus Lioneye once fell to King Kaom and his Karui. A handful of exiles live there now: the smuggler Tarkleigh, the healer Nessa and the stranded storyteller Bestel. To move inland you must cross the coast, drain the Submerged Passage with three Karui glyphs, climb to Axiom Prison and kill its warden Brutus, deal with the undead slaver Captain Fairgraves, and finally face Merveil, the Siren who rules the caves of Siren's Cove.",
+    "pt": "Exilado pelo Alto Templário Dominus, você é jogado ao mar junto com outros vinte e poucos criminosos de Oriath e acorda na Twilight Strand. Quase ninguém sobrevive. Praia acima fica Lioneye's Watch, um posto Eterno em ruínas onde o general Marceus Lioneye caiu diante do rei Kaom e seus Karui. Hoje alguns exilados vivem ali: o contrabandista Tarkleigh, a curandeira Nessa e o contador de histórias Bestel. Para seguir para o interior você precisa cruzar a costa, drenar a Submerged Passage com três glifos Karui, subir até a Axiom Prison e matar o carcereiro Brutus, lidar com o capitão escravagista morto-vivo Fairgraves e, por fim, enfrentar Merveil, a Sereia que domina as cavernas de Siren's Cove."
+  },
+  "npcs": [
+    { "name": "Tarkleigh", "role": { "en": "Former smuggler, weapon and armour vendor", "pt": "Ex-contrabandista, vende armas e armaduras" } },
+    { "name": "Nessa", "role": { "en": "Healer from Theopolis, gem and flask vendor", "pt": "Curandeira de Theopolis, vende gemas e frascos" } },
+    { "name": "Bestel", "role": { "en": "Shipwrecked sailor and would-be poet", "pt": "Marinheiro náufrago e aspirante a poeta" } }
+  ],
+  "bosses": [
+    { "name": "Hillock", "area": "1_1_1", "lore": { "en": "A huge brute blocking the gate of Lioneye's Watch. The first real fight of every exile.", "pt": "Um brutamontes gigante bloqueando o portão de Lioneye's Watch. A primeira luta de verdade de todo exilado." } },
+    { "name": "Brutus, Lord Incarcerator", "area": "1_1_7_1", "track": "wardens-quarters", "lore": { "en": "Warden of Axiom Prison, one of the most feared men of the Eternal Empire. He let the thaumaturge Shavronne transform him in a mad attempt at immortality; he went mad and killed everyone in the prison. Theopolis schools teach his tale as a warning.", "pt": "Carcereiro da Axiom Prison, um dos homens mais temidos do Império Eterno. Deixou a taumaturga Shavronne transformá-lo numa tentativa insana de imortalidade; enlouqueceu e matou todos na prisão. As escolas de Theopolis ensinam sua história como aviso." } },
+    { "name": "Captain Fairgraves", "area": "1_1_9", "lore": { "en": "Undead captain of a slave ship that carried Karui children across the sea in Chitus's time. He wants the Allflame to escape death.", "pt": "Capitão morto-vivo de um navio negreiro que levava crianças Karui pelo mar na época de Chitus. Quer o Allflame para escapar da morte." } },
+    { "name": "Merveil, the Siren", "area": "1_1_11_1", "final": true, "track": "merveil", "lore": { "en": "Once the wife of Daresso, King of Swords. His wedding gift, the Star of Wraeclast, slowly turned her into a siren. She waits on this coast for a husband who will never return, with a brood that has devoured countless souls.", "pt": "Antes esposa de Daresso, o Rei das Espadas. O presente de casamento dele, a Star of Wraeclast, a transformou aos poucos em sereia. Ela espera nesta costa por um marido que nunca vai voltar, com uma prole que já devorou incontáveis almas." } }
+  ],
+  "quests": [
+    { "name": "Enemy at the Gate", "req": true, "boss": "Hillock", "area": "1_1_1", "sum": { "en": "A dying exile on the beach points to smoke up the coast. Kill Hillock at the gate and Tarkleigh rewards you: 'We exiles have no history. It's just live or die, now.'", "pt": "Um exilado moribundo na praia aponta para a fumaça na costa. Mate Hillock no portão e Tarkleigh recompensa você: 'Nós exilados não temos história. Agora é só viver ou morrer.'" } },
+    { "name": "Mercy Mission", "req": false, "boss": "Hailrake", "area": "1_1_2a", "sum": { "en": "Nessa needs medicine for the wounded. Bestel says his ship, the Merry Gull, ran aground on the Tidal Island with the doctor's Medicine Chest.", "pt": "Nessa precisa de remédios para os feridos. Bestel conta que seu navio, o Merry Gull, encalhou na Tidal Island com o baú de remédios do médico." } },
+    { "name": "A Dirty Job", "req": false, "boss": "Kadavrus the Defiler", "area": "1_1_3a", "sum": { "en": "Dead birds are walking. Tarkleigh sends you to clear the Fetid Pool of whatever is raising them: the necromancer Kadavrus.", "pt": "Pássaros mortos estão andando. Tarkleigh manda você limpar a Fetid Pool de quem os está erguendo: o necromante Kadavrus." } },
+    { "name": "Breaking Some Eggs", "req": true, "area": "1_1_3", "sum": { "en": "A wall in the Mud Flats has three empty sockets. The Karui glyph-shells are hidden in rhoa nests; return them to open the Submerged Passage.", "pt": "Uma parede nos Mud Flats tem três encaixes vazios. As conchas-glifo Karui estão escondidas em ninhos de rhoa; devolva-as para abrir a Submerged Passage." } },
+    { "name": "The Dweller of the Deep", "req": false, "boss": "The Dweller of the Deep", "area": "1_1_4_0", "sum": { "en": "A giant crab nests in the Flooded Depths. Tarkleigh wants it dead before it comes looking for food.", "pt": "Um caranguejo gigante faz ninho nas Flooded Depths. Tarkleigh quer ele morto antes que venha procurar comida." } },
+    { "name": "The Caged Brute", "req": true, "boss": "Brutus", "area": "1_1_7_1", "sum": { "en": "The only way inland is through Axiom Prison. Kill its warden Brutus in the Warden's Chambers.", "pt": "O único caminho para o interior passa pela Axiom Prison. Mate o carcereiro Brutus nos Warden's Chambers." } },
+    { "name": "The Way Forward", "req": false, "boss": "Captain Arteri", "area": "1_1_8", "sum": { "en": "A thaumaturgic barrier seals the road at Prisoner's Gate. It is opened later from the other side, in Act 2's Western Forest.", "pt": "Uma barreira taumatúrgica fecha a estrada no Prisoner's Gate. Ela é aberta depois pelo outro lado, na Western Forest do Ato 2." } },
+    { "name": "The Marooned Mariner", "req": false, "boss": "Captain Fairgraves", "area": "1_1_9", "sum": { "en": "Fairgraves asks for the Allflame, found on a slave girl's corpse in the Ship Graveyard Cave. He betrays you once he has it.", "pt": "Fairgraves pede o Allflame, encontrado no cadáver de uma menina escrava na Ship Graveyard Cave. Ele trai você assim que o recebe." } },
+    { "name": "The Siren's Cadence", "req": true, "boss": "Merveil", "area": "1_1_11_1", "sum": { "en": "Nessa warns you to leave Merveil alone. Kill her and her twisted form to open the way to the forest. 'What have you become when even nightmares fear you?'", "pt": "Nessa avisa para deixar Merveil em paz. Mate-a e sua forma distorcida para abrir caminho até a floresta. 'O que você se tornou, quando até os pesadelos temem você?'" } }
+  ],
+  "nodes": [
+    { "id": "1_1_1", "name": "The Twilight Strand", "x": 166, "y": 328, "lvl": 1 },
+    { "id": "1_1_town", "name": "Lioneye's Watch", "x": 179, "y": 273, "town": true, "track": "lioneye" },
+    { "id": "1_1_2", "name": "The Coast", "x": 192, "y": 233, "wp": true, "lvl": 2, "track": "coast" },
+    { "id": "1_1_2a", "name": "The Tidal Island", "x": 220, "y": 253, "lvl": 3 },
+    { "id": "1_1_3", "name": "The Mud Flats", "x": 212, "y": 202, "lvl": 4 },
+    { "id": "1_1_3a", "name": "The Fetid Pool", "x": 192, "y": 156, "lvl": 5 },
+    { "id": "1_1_4_1", "name": "The Submerged Passage", "x": 251, "y": 166, "wp": true, "lvl": 5 },
+    { "id": "1_1_4_0", "name": "The Flooded Depths", "x": 288, "y": 187, "lvl": 6 },
+    { "id": "1_1_5", "name": "The Ledge", "x": 283, "y": 142, "wp": true, "lvl": 6 },
+    { "id": "1_1_6", "name": "The Climb", "x": 219, "y": 108, "wp": true, "lvl": 7, "track": "climb" },
+    { "id": "1_1_7_1", "name": "The Lower Prison", "also": "The Upper Prison", "x": 206, "y": 45, "wp": true, "lvl": 8, "track": "prison" },
+    { "id": "1_1_8", "name": "Prisoner's Gate", "x": 260, "y": 45, "wp": true, "lvl": 10 },
+    { "id": "1_1_9", "name": "The Ship Graveyard", "x": 324, "y": 107, "wp": true, "lvl": 11, "track": "ship-graveyard" },
+    { "id": "1_1_9a", "name": "The Ship Graveyard Cave", "x": 317, "y": 72, "lvl": 12 },
+    { "id": "1_1_11_1", "name": "The Cavern of Wrath", "also": "The Cavern of Anger", "x": 423, "y": 78, "wp": true, "lvl": 12, "track": "cavern-anger" }
+  ]
+}

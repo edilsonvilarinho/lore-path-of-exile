@@ -1,0 +1,369 @@
+{
+  "meta": {
+    "title": { "en": "Chronicles of Wraeclast", "pt": "Crônicas de Wraeclast" },
+    "subtitle": { "en": "The lore of Path of Exile, from the first lake to the Atlas", "pt": "A lore de Path of Exile, do primeiro lago ao Atlas" },
+    "source": "https://www.poewiki.net/wiki/History_of_Wraeclast",
+    "note": { "en": "Fan-made study guide. Lore aggregated from the community PoE Wiki. Path of Exile and its music belong to Grinding Gear Games.", "pt": "Guia de estudo feito por fã. Lore baseada na wiki da comunidade de PoE. Path of Exile e sua trilha pertencem à Grinding Gear Games." },
+    "calendar": { "en": "IC = Imperialis Conceptus, the Eternal calendar. Year 1 IC = founding of Sarn. The game's campaign happens in 1599-1600 IC.", "pt": "IC = Imperialis Conceptus, o calendário Eterno. Ano 1 IC = fundação de Sarn. A campanha do jogo acontece em 1599-1600 IC." }
+  },
+
+  "tracks": [
+    { "id": "kalandra", "title": "Lake of Kalandra", "src": "Extended Soundtrack/Expansions/Lake of Kalandra/Lake of Kalandra.mp3" },
+    { "id": "abyss", "title": "Abyss", "src": "Extended Soundtrack/Expansions/Abyss/01. Abyss.mp3" },
+    { "id": "shakari", "title": "Shakari", "src": "Path of Exile (Original Game Soundtrack)/23. Shakari.mp3" },
+    { "id": "halls-dead", "title": "The Halls of the Dead", "src": "Extended Soundtrack/Expansions/Trial of the Ancestors/The Halls of the Dead.mp3" },
+    { "id": "lycia", "title": "Lycia", "src": "Extended Soundtrack/Expansions/Forbidden Sanctum/Lycia.mp3" },
+    { "id": "shadow-vaal", "title": "Shadow of the Vaal", "src": "Extended Soundtrack/Core Game/Shadow of the Vaal.mp3" },
+    { "id": "atziri", "title": "Atziri's Influence", "src": "Extended Soundtrack/Expansions/Sacrifice of the Vaal/01. Atziri's Influence.mp3" },
+    { "id": "delve-dark", "title": "Into the Darkness", "src": "Extended Soundtrack/Expansions/Delve/01. Into the Darkness.mp3" },
+    { "id": "sarn", "title": "City of Sarn", "src": "Path of Exile (Original Game Soundtrack)/16. City of Sarn.mp3" },
+    { "id": "izaro", "title": "Izaro Theme", "src": "Extended Soundtrack/Expansions/Ascendancy/03. Izaro Theme.mp3" },
+    { "id": "belly", "title": "Belly of the Beast", "src": "Path of Exile (Original Game Soundtrack)/24. Belly of the Beast.mp3" },
+    { "id": "battlefront", "title": "Battlefront", "src": "Path of Exile (Original Game Soundtrack)/18. Battlefront.mp3" },
+    { "id": "heart-corruption", "title": "Heart of Corruption", "src": "Path of Exile (Original Game Soundtrack)/25. Heart of Corruption.mp3" },
+    { "id": "daresso", "title": "Daresso, King of Swords", "src": "Extended Soundtrack/Core Game/Daresso, King of Swords Theme.mp3" },
+    { "id": "main-theme", "title": "The Fall of Oriath (Main Theme)", "src": "Path of Exile (Original Game Soundtrack)/01. The Fall of Oriath (Main Theme).mp3" },
+    { "id": "shaper-realm", "title": "Shaper's Realm", "src": "Extended Soundtrack/Expansions/Atlas of Worlds/02. Shapers Realm.mp3" },
+    { "id": "elder", "title": "Elder", "src": "Path of Exile (Original Game Soundtrack)/41. Elder.mp3" },
+    { "id": "maven", "title": "Maven", "src": "Extended Soundtrack/Expansions/Echoes of the Atlas/Maven.mp3" },
+    { "id": "cleansing-fire", "title": "The Cleansing Fire", "src": "Extended Soundtrack/Expansions/Siege of the Atlas/The Cleansing Fire.mp3" },
+    { "id": "memory-threads", "title": "Memory Threads", "src": "Extended Soundtrack/Expansions/Secrets of the Atlas/Memory Threads.mp3" },
+    { "id": "conquerors-basilisk", "title": "Basilisk", "src": "Extended Soundtrack/Expansions/Conquerors of the Atlas/Basilisk.mp3" },
+
+    { "id": "lioneye", "title": "Lioneye's Watch", "src": "Path of Exile (Original Game Soundtrack)/02. Lioneye’s Watch.mp3" },
+    { "id": "merveil", "title": "Merveil", "src": "Path of Exile (Original Game Soundtrack)/08. Merveil.mp3" },
+    { "id": "forest-encampment", "title": "Forest Encampment", "src": "Path of Exile (Original Game Soundtrack)/10. Forest Encampment.mp3" },
+    { "id": "sarn-encampment", "title": "Sarn Encampment", "src": "Path of Exile (Original Game Soundtrack)/17. Sarn Encampment.mp3" },
+    { "id": "highgate", "title": "Highgate", "src": "Path of Exile (Original Game Soundtrack)/21. Highgate.mp3" },
+    { "id": "templar-courts", "title": "Templar Courts", "src": "Path of Exile (Original Game Soundtrack)/28. Templar Courts.mp3" },
+    { "id": "kitava", "title": "Kitava", "src": "Path of Exile (Original Game Soundtrack)/31. Kitava.mp3" },
+    { "id": "brine-king", "title": "Brine King", "src": "Path of Exile (Original Game Soundtrack)/34. Brine King.mp3" },
+    { "id": "arakaali", "title": "Arakaali", "src": "Path of Exile (Original Game Soundtrack)/15. Arakaali.mp3" },
+    { "id": "solaris-lunaris", "title": "Solaris & Lunaris", "src": "Path of Exile (Original Game Soundtrack)/36. Solaris & Lunaris.mp3" },
+    { "id": "oriath-dock", "title": "Oriath Dock", "src": "Path of Exile (Original Game Soundtrack)/37. Oriath Dock.mp3" },
+    { "id": "altar-hunger", "title": "Altar of Hunger", "src": "Path of Exile (Original Game Soundtrack)/38. Altar of Hunger.mp3" }
+  ],
+
+  "eras": [
+    {
+      "id": "kalandra-titans", "order": 1, "color": "#6d8bd1",
+      "year": { "en": "Before time", "pt": "Antes do tempo" },
+      "title": { "en": "The Lake, the Titans and the Forgotten", "pt": "O Lago, os Titãs e os Esquecidos" },
+      "summary": {
+        "en": "Wraeclast begins as a molten world. Kalandra is trapped in a lake of basalt pillars, Titans walk the volcanoes, and two lost civilizations (the Precursors and the Primeval) rise and fall long before humans as we know them.",
+        "pt": "Wraeclast nasce como um mundo de magma. Kalandra fica presa em um lago de pilares de basalto, Titãs caminham pelos vulcões, e duas civilizações perdidas (os Precursores e os Primevos) surgem e caem muito antes dos humanos que conhecemos."
+      },
+      "events": [
+        { "when": { "en": "Primordial", "pt": "Primordial" }, "text": { "en": "Kalandra finds a boundless lake and can never leave it. She watches the world from inside it, receiving ambitious visitors, including the Order of the Djinn, whom she later abandons.", "pt": "Kalandra encontra um lago sem fim e nunca consegue sair dele. Observa o mundo de dentro, recebendo visitantes ambiciosos, entre eles a Ordem dos Djinn, que ela depois abandona." } },
+        { "when": { "en": "Age of Titans", "pt": "Era dos Titãs" }, "text": { "en": "Titans live in the volcanoes. Facing a 'rising darkness', the last Titans forge weapons for humans and unearth the first virtue gem. Only the Molten One survives.", "pt": "Titãs vivem nos vulcões. Diante de uma 'escuridão crescente', os últimos Titãs forjam armas para os humanos e desenterram a primeira gema de virtude. Só o Molten One sobrevive." } },
+        { "when": { "en": "Precursors", "pt": "Precursores" }, "text": { "en": "An incredibly advanced civilization masters corruption, then delves too deep into the world's secrets. Great fires, eruptions and impacts from the sky wipe it out. Its ruins repeat: 'Death lies within'.", "pt": "Uma civilização incrivelmente avançada domina a corrupção e depois cava fundo demais nos segredos do mundo. Grandes fogos, erupções e impactos vindos do céu a destroem. Suas ruínas repetem: 'A morte espreita lá dentro'." } },
+        { "when": { "en": "Primeval civilization", "pt": "Civilização Primeva" }, "text": { "en": "Uzaza founds it. The slave Aul overthrows the tyrant Putembo, then becomes a tyrant himself, trading golems with Kulemak for power. Possessed golems topple his kingdom; he ends as the Crystal King.", "pt": "Uzaza a funda. O escravo Aul derruba o tirano Putembo e se torna tirano também, trocando golens por poder com Kulemak. Golens possuídos derrubam seu reino; ele termina como o Rei de Cristal." } }
+      ],
+      "entities": ["kalandra", "titans", "aul"], "track": "kalandra", "spoiler": false
+    },
+    {
+      "id": "winter-lightless", "order": 2, "color": "#9aa4b5",
+      "year": { "en": "Winter of the World", "pt": "Inverno do Mundo" },
+      "title": { "en": "The Winter of the World and the Lightless", "pt": "O Inverno do Mundo e os Sem-Luz" },
+      "summary": {
+        "en": "Volcanic ash blots out the sun. The Lightless, beings of the deep that fear light, surface and destroy the primeval world. The Order of the Djinn rises to fight them, and the sun finally returns.",
+        "pt": "Cinzas vulcânicas escondem o sol. Os Lightless (Sem-Luz), seres das profundezas que temem a luz, sobem à superfície e destroem o mundo primevo. A Ordem dos Djinn surge para combatê-los, e o sol finalmente retorna."
+      },
+      "events": [
+        { "when": { "en": "The ash", "pt": "A cinza" }, "text": { "en": "An ancient eruption fills the sky with ash. Different cultures remember it differently: Winter of the World (Maraketh), Great Fire (Ezomytes), Great Wasting (Karui).", "pt": "Uma erupção antiga enche o céu de cinzas. Cada cultura o lembra de um jeito: Inverno do Mundo (Maraketh), Grande Fogo (Ezomytes), Grande Desperdício / Great Wasting (Karui)." } },
+        { "when": { "en": "The Lightless", "pt": "Os Sem-Luz" }, "text": { "en": "They were not born: they were made, golems possessed through necromancy. They attack the primeval civilization and the Maraketh, felling the Titans.", "pt": "Eles não nasceram: foram criados, golens possuídos por necromancia. Atacam a civilização primeva e os Maraketh, derrubando os Titãs." } },
+        { "when": { "en": "Order of the Djinn", "pt": "Ordem dos Djinn" }, "text": { "en": "Ahkeli the Clayshaper, with surviving Maraketh and her golems, pushes back the Lightless. The twin sekhema Solerai and Lundara unite the Maraketh and end the Winter, but Ahkeli dies first.", "pt": "Ahkeli, a Modeladora de Argila, com Maraketh sobreviventes e seus golens, empurra os Lightless de volta. As sekhema gêmeas Solerai e Lundara unem os Maraketh e encerram o Inverno, mas Ahkeli morre antes." } },
+        { "when": { "en": "The Viridian Wildwood", "pt": "A Mata Viridiana" }, "text": { "en": "The Draíocht creates the Wildwood as a refuge. The Maji enter as vanguard, but a malevolent presence, the Nameless, slips in with them.", "pt": "A Draíocht cria a Mata Viridiana como refúgio. Os Maji entram como vanguarda, mas uma presença maligna, os Nameless (Sem-Nome), entra junto." } }
+      ],
+      "entities": ["lightless", "ahkeli", "order-djinn", "gruthkul"], "track": "abyss", "spoiler": false
+    },
+    {
+      "id": "gods-peoples", "order": 3, "color": "#c9a24b",
+      "year": { "en": "Ancient times", "pt": "Tempos antigos" },
+      "title": { "en": "Gods, mortals and the old peoples", "pt": "Deuses, mortais e os povos antigos" },
+      "summary": {
+        "en": "Every god in Wraeclast was once mortal. Through Divinity, the power of belief, some transcended. This is the age of the Azmeri, Maraketh, Karui and Ezomytes, and of their gods: Solaris and Lunaris, Garukhan, Shakari, Tukohama, Kitava, Hinekora.",
+        "pt": "Todo deus em Wraeclast já foi mortal. Pela Divindade, o poder da fé, alguns transcenderam. Esta é a era dos Azmeri, Maraketh, Karui e Ezomytes, e de seus deuses: Solaris e Lunaris, Garukhan, Shakari, Tukohama, Kitava, Hinekora."
+      },
+      "events": [
+        { "when": { "en": "Azmeri", "pt": "Azmeri" }, "text": { "en": "Solaris and Lunaris, 'the Last Children', ascend as goddesses of Sun and Moon. The trickster Tangmazu tricks Solaris into believing her sister betrayed her. Their war lasts to this day.", "pt": "Solaris e Lunaris, 'as Últimas Crianças', ascendem como deusas do Sol e da Lua. O trapaceiro Tangmazu engana Solaris, fazendo-a acreditar que a irmã a traiu. A guerra delas dura até hoje." } },
+        { "when": { "en": "Maraketh", "pt": "Maraketh" }, "text": { "en": "A matriarchal desert people led by sekhema. Orbala completes eight legendary adventures and ascends as Garukhan, Queen of the Wind. Her daughter Shakari becomes the half-scorpion Queen of the Sands.", "pt": "Povo matriarcal do deserto, liderado por sekhema. Orbala cumpre oito aventuras lendárias e ascende como Garukhan, Rainha do Vento. Sua filha Shakari se torna a Rainha das Areias, meio escorpião." } },
+        { "when": { "en": "Karui", "pt": "Karui" }, "text": { "en": "Once peaceful farmers and fishermen, until Tukohama put axes in their hands. Kitava, Father of Chaos, is born of Hunger. Punished for his greed by the other gods, he is bound in the underworld and swears to devour every soul.", "pt": "Antes fazendeiros e pescadores pacíficos, até Tukohama pôr machados em suas mãos. Kitava, Pai do Caos, nasce da Fome. Punido por sua ganância pelos outros deuses, é preso no submundo e jura devorar todas as almas." } },
+        { "when": { "en": "Ezomytes", "pt": "Ezomytes" }, "text": { "en": "From Ezomyr, in the west. They worship the First Ones. The Great Fire came when their ancestors failed to honour them; survivors fed on each other after tainted grain from Mother Gull.", "pt": "De Ezomyr, no oeste. Veneram os Primeiros (First Ones). O Grande Fogo veio quando seus ancestrais deixaram de honrá-los; os sobreviventes se devoraram após receber grãos contaminados da Mother Gull." } }
+      ],
+      "entities": ["solaris", "lunaris", "tangmazu", "garukhan", "shakari", "tukohama", "kitava", "hinekora"], "track": "shakari", "spoiler": false
+    },
+    {
+      "id": "sin-innocence", "order": 4, "color": "#d9d9d9",
+      "year": { "en": "Unknown age", "pt": "Era desconhecida" },
+      "title": { "en": "Sin, Innocence and the Beast", "pt": "Pecado, Inocência e a Besta" },
+      "summary": {
+        "en": "Twin gods, one vilified, one worshipped. Sin plants the Dark Ember beneath Highgate and grows the Beast, which puts the gods to sleep, ends mortal ascension and becomes the source of all thaumaturgy and virtue gems.",
+        "pt": "Deuses gêmeos: um difamado, outro adorado. Sin (Pecado) planta a Brasa Sombria sob Highgate e faz crescer a Besta, que adormece os deuses, encerra a ascensão de mortais e se torna a fonte de toda taumaturgia e das gemas de virtude."
+      },
+      "events": [
+        { "when": { "en": "The windows", "pt": "Os vitrais" }, "text": { "en": "Official church version: the pure Innocence burns the deceitful Sin at the stake. But the relics of the heretic Lycia show this was propaganda.", "pt": "Versão oficial da igreja: o puro Innocence queima o enganador Sin na fogueira. Mas as relíquias da herege Lycia mostram que isso era propaganda." } },
+        { "when": { "en": "The truth", "pt": "A verdade" }, "text": { "en": "Innocence wanted godhood, turned his followers against his brother to harvest their hatred, and used fear of fire to build his religion. Garukhan frees Sin from the cliff and they flee together.", "pt": "Innocence queria ser deus, voltou seus seguidores contra o irmão para colher o ódio deles e usou o medo do fogo para construir sua religião. Garukhan liberta Sin do penhasco e os dois fogem juntos." } },
+        { "when": { "en": "Oriath", "pt": "Oriath" }, "text": { "en": "Innocence's followers, banished from the Azmeri mountains, found Oriath: a theocracy led by High Templars. The first, Maxarius, was Innocence himself.", "pt": "Os seguidores de Innocence, banidos das montanhas Azmeri, fundam Oriath: uma teocracia governada por Altos Templários. O primeiro, Maxarius, era o próprio Innocence." } },
+        { "when": { "en": "The Beast", "pt": "A Besta" }, "text": { "en": "Sin plants the Dark Ember 'for Garukhan' beneath Highgate. Intended only to lull the gods to sleep, it has no will of its own and is easily manipulated by Doryani, Atziri, Chitus and Malachai.", "pt": "Sin planta a Brasa Sombria 'para Garukhan' sob Highgate. Feita só para fazer os deuses dormirem, não tem vontade própria e é facilmente manipulada por Doryani, Atziri, Chitus e Malachai." } }
+      ],
+      "entities": ["sin", "innocence", "beast", "garukhan"], "track": "lycia", "spoiler": false
+    },
+    {
+      "id": "vaal", "order": 5, "color": "#d4a017",
+      "year": { "en": "~1200 BC onward", "pt": "~1200 a.C. em diante" },
+      "title": { "en": "The Vaal Empire", "pt": "O Império Vaal" },
+      "summary": {
+        "en": "The oldest identified civilization, and the most powerful in the known world. The Vaal used virtue gems empowered by blood sacrifice. They taught the Azmeri to farm and write, but never revealed the secret of the gems.",
+        "pt": "A mais antiga civilização identificada e a mais poderosa do mundo conhecido. Os Vaal usavam gemas de virtude alimentadas por sacrifício de sangue. Ensinaram os Azmeri a plantar e escrever, mas nunca revelaram o segredo das gemas."
+      },
+      "events": [
+        { "when": { "en": "~1200 BC", "pt": "~1200 a.C." }, "text": { "en": "First contact with the Azmeri. The Vaal introduce agriculture and the first Azmerian written language.", "pt": "Primeiro contato com os Azmeri. Os Vaal introduzem a agricultura e a primeira escrita azmeri." } },
+        { "when": { "en": "Vaal gods", "pt": "Deuses Vaal" }, "text": { "en": "Yaomac (three-headed shepherd of souls), Ralakesh (Master of a Million Faces), Yugul (Reflection of Terror) and Arakaali (Spinner of Shadows) are worshipped.", "pt": "Yaomac (pastor de almas de três cabeças), Ralakesh (Mestre de Mil Faces), Yugul (Reflexo do Terror) e Arakaali (Fiadora de Sombras) são cultuados." } },
+        { "when": { "en": "Queen Atziri", "pt": "Rainha Atziri" }, "text": { "en": "The last queen: vain, narcissistic, obsessed with eternal youth. She demands blood sacrifice and gems from her people. Her thaumaturge Doryani studies the killer Zerphi, who looked young at 168.", "pt": "A última rainha: vaidosa, narcisista, obcecada por juventude eterna. Exige sacrifícios de sangue e gemas de seu povo. Seu taumaturgo Doryani estuda o assassino Zerphi, que parecia jovem aos 168 anos." } },
+        { "when": { "en": "Temple of Atzoatl", "pt": "Templo de Atzoatl" }, "text": { "en": "Built in her final years: treasury, laboratory, school of weather and immortality, home of the Cult of the Purple Flame. Its location is now lost.", "pt": "Construído nos últimos anos dela: tesouro, laboratório, escola do clima e da imortalidade, sede do Culto da Chama Roxa. Sua localização hoje está perdida." } }
+      ],
+      "entities": ["atziri", "doryani", "arakaali"], "track": "shadow-vaal", "spoiler": false
+    },
+    {
+      "id": "vaal-cataclysm", "order": 6, "color": "#b3222a",
+      "year": { "en": "Year 0 IC", "pt": "Ano 0 IC" },
+      "title": { "en": "The Vaal Cataclysm", "pt": "O Cataclismo Vaal" },
+      "summary": {
+        "en": "Doryani's final project, powered by the Beast, gems and mass sacrifice, would grant immortality to all or death to all. The Vaal fell. Only 3,126 survived, took refuge with the Azmeri, and were absorbed.",
+        "pt": "O projeto final de Doryani, movido pela Besta, por gemas e sacrifício em massa, daria imortalidade a todos ou morte a todos. Os Vaal caíram. Só 3.126 sobreviveram, abrigaram-se entre os Azmeri e foram absorvidos."
+      },
+      "events": [
+        { "when": { "en": "The Fall", "pt": "A Queda" }, "text": { "en": "Nobody knows exactly what happened, not even scholars. Survivors arrive 'bereft of family, wealth and sanity', and none carry gems.", "pt": "Ninguém sabe exatamente o que houve, nem os estudiosos. Os sobreviventes chegam 'sem família, riqueza ou sanidade', e nenhum carrega gemas." } },
+        { "when": { "en": "Atziri", "pt": "Atziri" }, "text": { "en": "She keeps her beauty at the cost of her humanity, exiled in a 'crimson nightmare realm', where her followers sacrifice themselves to her over and over.", "pt": "Ela preserva a beleza ao custo da humanidade, exilada em um 'reino de pesadelo carmesim', onde seus seguidores se sacrificam a ela repetidamente." } },
+        { "when": { "en": "Aftermath", "pt": "Consequências" }, "text": { "en": "Constructs, abominations and the undead roam the ruins. The land is corrupted. Doryani's fate is unknown.", "pt": "Construtos, abominações e mortos-vivos vagam pelas ruínas. A terra fica corrompida. O destino de Doryani é desconhecido." } }
+      ],
+      "entities": ["atziri", "doryani", "beast"], "track": "atziri", "spoiler": false
+    },
+    {
+      "id": "kalguur", "order": 7, "color": "#5aa7b8",
+      "year": { "en": "After the Fall", "pt": "Após a Queda" },
+      "title": { "en": "The Kalguuran Expedition", "pt": "A Expedição Kalguur" },
+      "summary": {
+        "en": "From Middengard, far to the east, the Kalguur see a crimson sun and falling stars and send an expedition carrying the Triskelion Flame. They find a land of horrors and endless wealth, and it ruins them.",
+        "pt": "De Middengard, muito a leste, os Kalguur veem um sol carmesim e estrelas caindo, e enviam uma expedição com a Chama Triskelion. Encontram uma terra de horrores e riquezas sem fim, e ela os arruína."
+      },
+      "events": [
+        { "when": { "en": "Arrival", "pt": "Chegada" }, "text": { "en": "Led by Olroth (Knights of the Sun), Uhtred (Order of the Chalice), Vorana (Black Scythes) and Medved (Druids of the Broken Circle). The Flame raises a starlight barrier against the horrors.", "pt": "Liderada por Olroth (Cavaleiros do Sol), Uhtred (Ordem do Cálice), Vorana (Black Scythes) e Medved (Druidas do Círculo Quebrado). A Chama ergue uma barreira de luz estelar contra os horrores." } },
+        { "when": { "en": "The gems", "pt": "As gemas" }, "text": { "en": "Olroth, unable to beat the Empty-Eyed Fiend, breaks the ban and uses a gem. He wins, but the future-past of the druids is clouded. Gems spread among the knights.", "pt": "Olroth, incapaz de vencer o Empty-Eyed Fiend, quebra a proibição e usa uma gema. Vence, mas o futuro-passado dos druidas fica turvo. As gemas se espalham entre os cavaleiros." } },
+        { "when": { "en": "Collapse", "pt": "Colapso" }, "text": { "en": "Priests stab the sleepwalking Olroth 71 times. Medved becomes a horror and kills 42 challengers in 42 days. The barrier vanishes, the Flame is gone, famine sets in. Vorana puts gems in her own flesh and leaves.", "pt": "Padres esfaqueiam Olroth sonâmbulo 71 vezes. Medved vira um horror e mata 42 desafiantes em 42 dias. A barreira some, a Chama desaparece, a fome chega. Vorana implanta gemas na própria carne e parte." } },
+        { "when": { "en": "Today", "pt": "Hoje" }, "text": { "en": "All four reappear as corrupted bosses: Vorana, Medved, Olroth (next to the Flame) and Uhtred (in a Precursor shrine).", "pt": "Os quatro reaparecem como chefes corrompidos: Vorana, Medved, Olroth (junto à Chama) e Uhtred (num santuário Precursor)." } }
+      ],
+      "entities": ["olroth"], "track": "delve-dark", "spoiler": false
+    },
+    {
+      "id": "eternal-empire", "order": 8, "color": "#c0792b",
+      "year": { "en": "1 IC - 1316 IC", "pt": "1 IC - 1316 IC" },
+      "title": { "en": "The Eternal Empire", "pt": "O Império Eterno" },
+      "summary": {
+        "en": "Tarcus Veruso leads 80,000 Azmeri down the mountains, plants his banner over the old Vaal capital and founds Sarn. A long line of emperors follows, from ruthless unifiers to inbred decadents.",
+        "pt": "Tarcus Veruso lidera 80 mil Azmeri montanha abaixo, finca sua bandeira sobre a antiga capital Vaal e funda Sarn. Segue-se uma longa linhagem de imperadores, de unificadores implacáveis a decadentes consanguíneos."
+      },
+      "events": [
+        { "when": { "en": "1 IC", "pt": "1 IC" }, "text": { "en": "Founding of Sarn. Veruso outlaws thaumaturgy, burns the 'stained', and buries the gems under Highgate. 'We are not Vaal. For now and forever, our eyes are open.'", "pt": "Fundação de Sarn. Veruso proíbe a taumaturgia, queima os 'manchados' e enterra as gemas sob Highgate. 'Não somos Vaal. Para sempre, nossos olhos estão abertos.'" } },
+        { "when": { "en": "Ankh of Eternity", "pt": "Ankh da Eternidade" }, "text": { "en": "His wife Chiara dies in childbirth; the Ankh brings her back as a monster, and the records are rewritten to hide the failure.", "pt": "Sua esposa Chiara morre no parto; o Ankh a traz de volta como um monstro, e os registros são reescritos para esconder o fracasso." } },
+        { "when": { "en": "~334 IC", "pt": "~334 IC" }, "text": { "en": "Night of a Thousand Ribbons: Emperor Romira, who fed an empress's sons back to her, is deposed and Sarn is burned.", "pt": "Noite das Mil Fitas: o imperador Romira, que serviu à imperatriz os próprios filhos, é deposto e Sarn é incendiada." } },
+        { "when": { "en": "870-892 IC", "pt": "870-892 IC" }, "text": { "en": "Under Tyndarus Phrecius, exiles sent to Trarthus rebel; the Empire cuts contact.", "pt": "Sob Tyndarus Phrecius, exilados enviados a Trarthus se rebelam; o Império corta o contato." } }
+      ],
+      "entities": ["tarcus-veruso", "cadiro"], "track": "sarn", "spoiler": false
+    },
+    {
+      "id": "lords-labyrinth", "order": 9, "color": "#e0b24a",
+      "year": { "en": "1317 - 1319 IC", "pt": "1317 - 1319 IC" },
+      "title": { "en": "The Lord's Labyrinth", "pt": "O Labirinto do Lorde" },
+      "summary": {
+        "en": "Emperor Izaro, impotent from generations of inbreeding, lets a labyrinth choose his heir. The Perandus family cheats, and Chitus walks out as emperor over the poisoned body of his friend Weylin.",
+        "pt": "O imperador Izaro, impotente após gerações de consanguinidade, deixa um labirinto escolher seu herdeiro. A família Perandus trapaceia, e Chitus sai imperador sobre o corpo envenenado do amigo Weylin."
+      },
+      "events": [
+        { "when": { "en": "1317 IC", "pt": "1317 IC" }, "text": { "en": "Izaro opens the Lord's Labyrinth, inspired by the Azmerian 'Lord's Trial' that once made Veruso a leader. He sees himself as a divine saviour trapped in a man's body.", "pt": "Izaro abre o Labirinto do Lorde, inspirado no 'Julgamento do Lorde' azmeri que um dia tornou Veruso líder. Ele se vê como um salvador divino preso em corpo de homem." } },
+        { "when": { "en": "The Perandus plot", "pt": "A trama Perandus" }, "text": { "en": "Chitus and his uncle Cadiro buy overseers, learn the maps and stash supplies. Sabotage attempts on Izaro fail, so they cheat the trial itself.", "pt": "Chitus e o tio Cadiro compram supervisores, aprendem os mapas e escondem suprimentos. Atentados contra Izaro falham, então fraudam o próprio julgamento." } },
+        { "when": { "en": "The betrayal", "pt": "A traição" }, "text": { "en": "Chitus (the 'Guide') and the Ezomyte slave Weylin (the 'Warrior') cross together. Near the end, Chitus gives Weylin a poisoned flask.", "pt": "Chitus (o 'Guia') e o escravo ezomyte Weylin (o 'Guerreiro') atravessam juntos. Perto do fim, Chitus oferece a Weylin um cantil envenenado." } },
+        { "when": { "en": "1319 IC", "pt": "1319 IC" }, "text": { "en": "Chitus is crowned. His first act: seal Izaro inside his own labyrinth, where he is still found today.", "pt": "Chitus é coroado. Seu primeiro ato: selar Izaro dentro do próprio labirinto, onde ele ainda é encontrado hoje." } }
+      ],
+      "entities": ["izaro", "chitus", "cadiro"], "track": "izaro", "spoiler": false
+    },
+    {
+      "id": "chitus-malachai", "order": 10, "color": "#8e44ad",
+      "year": { "en": "1319 - 1332 IC", "pt": "1319 - 1332 IC" },
+      "title": { "en": "Chitus, Malachai and the Gemlings", "pt": "Chitus, Malachai e os Gemlings" },
+      "summary": {
+        "en": "Chitus empowers his Laureate Thaumaturge Malachai. Slaves from the Karui, Ezomytes and Maraketh mine the gems Veruso buried. Malachai creates the Gemling legions and a 'Thaumatocracy'.",
+        "pt": "Chitus dá poder a seu Taumaturgo Laureado, Malachai. Escravos Karui, Ezomytes e Maraketh extraem as gemas que Veruso enterrou. Malachai cria as legiões Gemling e uma 'Taumatocracia'."
+      },
+      "events": [
+        { "when": { "en": "The slave trade", "pt": "O tráfico" }, "text": { "en": "Karui children are shipped by Fairgraves; Lioneye raids Ngamakanui; Sentari runs 'civilization camps' near Highgate. Workers are altered, underpaid and sealed in the mines when they protest.", "pt": "Crianças Karui são transportadas por Fairgraves; Lioneye invade Ngamakanui; Sentari comanda 'campos de civilização' perto de Highgate. Trabalhadores são alterados, mal pagos e lacrados nas minas quando protestam." } },
+        { "when": { "en": "Malachai", "pt": "Malachai" }, "text": { "en": "He builds the Reverie Device (precursor of the Map Device), enters the Nightmare, and the Beast speaks to him. He wants to follow Doryani's path.", "pt": "Constrói o Reverie Device (precursor do Map Device), entra no Pesadelo, e a Besta fala com ele. Ele quer seguir o caminho de Doryani." } },
+        { "when": { "en": "The Godless Three", "pt": "Os Três Sem-Deus" }, "text": { "en": "Shavronne (transfiguration, vanity), Doedre Darktongue (flesh, curses) and Inquisitor Maligaro (flesh and blood as art). Maligaro's Spike turns his assistant Raulo into Fidelitas.", "pt": "Shavronne (transfiguração, vaidade), Doedre Língua-Negra (carne, maldições) e Inquisidor Maligaro (carne e sangue como arte). O Spike de Maligaro transforma seu assistente Raulo em Fidelitas." } },
+        { "when": { "en": "The heart gem", "pt": "A gema do coração" }, "text": { "en": "To stop Gemlings from turning on him, Chitus has a master gem implanted in his chest linking every legionnaire's heartbeat to his own. If he dies, they all die.", "pt": "Para impedir que os Gemlings se voltem contra ele, Chitus implanta uma gema-mestra no peito ligando o coração de cada legionário ao seu. Se ele morrer, todos morrem." } }
+      ],
+      "entities": ["chitus", "malachai", "maligaro", "dialla"], "track": "belly", "spoiler": false
+    },
+    {
+      "id": "purity-rebellion", "order": 11, "color": "#e8e0c8",
+      "year": { "en": "1332 - 1334 IC", "pt": "1332 - 1334 IC" },
+      "title": { "en": "The Purity Rebellion", "pt": "A Rebelião da Pureza" },
+      "summary": {
+        "en": "High Templar Voll and the poet Victario unite those enslaved by the Empire (Ezomytes, Karui, Maraketh) to topple Chitus and ban thaumaturgy. Four fronts, four victories, and a fatal mistake.",
+        "pt": "O Alto Templário Voll e o poeta Victario unem os escravizados pelo Império (Ezomytes, Karui, Maraketh) para derrubar Chitus e banir a taumaturgia. Quatro frentes, quatro vitórias e um erro fatal."
+      },
+      "events": [
+        { "when": { "en": "Dec 1333 IC", "pt": "1333 IC" }, "text": { "en": "Bloody Flowers Rebellion: Rigwald's Ezomytes rise at Glarryn against Governor Sentari under a thousand tartans.", "pt": "Rebelião das Flores Sangrentas: os ezomytes de Rigwald se levantam em Glarryn contra o governador Sentari sob mil tartãs." } },
+        { "when": { "en": "Karui", "pt": "Karui" }, "text": { "en": "Kaom unifies the tribes and, with Hyrri's female archers (which satisfy the Karui taboo), kills General Lioneye at the Coast, wearing his head as the Headhunter belt.", "pt": "Kaom unifica as tribos e, com as arqueiras de Hyrri (que respeitam o tabu Karui), mata o general Lioneye na Costa, usando a cabeça dele como o cinto Headhunter." } },
+        { "when": { "en": "Maraketh", "pt": "Maraketh" }, "text": { "en": "Sekhema Deshret's akhara destroy General Titucius in a dust storm. She takes his skin for a saddle.", "pt": "A akhara da sekhema Deshret destrói o general Titucius numa tempestade de poeira. Ela toma sua pele para uma sela." } },
+        { "when": { "en": "1334 IC", "pt": "1334 IC" }, "text": { "en": "Siege of Sarn. The Grain Gate assault fails (Marylene dies), but Ondar betrays and kills Chitus during the Night of a Thousand Ribbons. Cadiro negotiates surrender; Voll is crowned.", "pt": "Cerco de Sarn. O ataque ao Grain Gate falha (Marylene morre), mas Ondar trai e mata Chitus na Noite das Mil Fitas. Cadiro negocia a rendição; Voll é coroado." } }
+      ],
+      "entities": ["voll", "victario", "kaom", "deshret", "rigwald", "marceus-lioneye"], "track": "battlefront", "spoiler": false
+    },
+    {
+      "id": "cataclysm", "order": 12, "color": "#7a1220",
+      "year": { "en": "1334 - ~1339 IC", "pt": "1334 - ~1339 IC" },
+      "title": { "en": "Voll and the Cataclysm", "pt": "Voll e o Cataclismo" },
+      "summary": {
+        "en": "Voll spares Malachai in exchange for a promise to end thaumaturgy. Malachai builds the Rapture Device 'to kill the Beast' and uses it to take control of it instead. The sun turns to blood and Sarn falls within an hour.",
+        "pt": "Voll poupa Malachai em troca da promessa de acabar com a taumaturgia. Malachai constrói o Rapture Device 'para matar a Besta' e o usa para controlá-la. O sol vira sangue e Sarn cai em uma hora."
+      },
+      "events": [
+        { "when": { "en": "1336 IC", "pt": "1336 IC" }, "text": { "en": "The Rapture Device is installed in the Crystal Veins, powered by the Eye of Fury (Kaom) and the Eye of Desire (Daresso). Dialla refuses to sacrifice herself, so only a small rupture opens.", "pt": "O Rapture Device é instalado nos Crystal Veins, alimentado pelo Olho da Fúria (Kaom) e pelo Olho do Desejo (Daresso). Dialla se recusa a se sacrificar, então só uma pequena ruptura se abre." } },
+        { "when": { "en": "~1339 IC", "pt": "~1339 IC" }, "text": { "en": "The Cataclysm. Flesh rots, tentacles grow, Gemlings and citizens become the Undying. Victario dies. In Ngamakanui the moon turns crimson. Oriath is untouched.", "pt": "O Cataclismo. A carne apodrece, tentáculos brotam, Gemlings e cidadãos viram os Undying. Victario morre. Em Ngamakanui a lua fica carmesim. Oriath não é atingida." } },
+        { "when": { "en": "Deshret's Seal", "pt": "O Selo de Deshret" },"text": { "en": "Twenty years after Kaom, Deshret reaches the mines and falters, sealing the entrance with miners still inside. Voll later kills her and takes her banner.", "pt": "Vinte anos após Kaom, Deshret chega às minas e hesita, selando a entrada com mineiros ainda dentro. Voll depois a mata e toma seu estandarte." } },
+        { "when": { "en": "Voll's Confession", "pt": "Confissão de Voll" }, "text": { "en": "Horrified, Voll flees to the Dried Lake and writes an apology to his 'Empire of Purity'. He and his undead legion stay there for centuries.", "pt": "Horrorizado, Voll foge para o Lago Seco e escreve um pedido de desculpas ao seu 'Império da Pureza'. Ele e sua legião morta-viva permanecem lá por séculos." } }
+      ],
+      "entities": ["malachai", "voll", "deshret", "beast"], "track": "heart-corruption", "spoiler": false
+    },
+    {
+      "id": "oriath", "order": 13, "color": "#4a6fa5",
+      "year": { "en": "~1450 IC", "pt": "~1450 IC" },
+      "title": { "en": "Oriath, Daresso and Merveil", "pt": "Oriath, Daresso e Merveil" },
+      "summary": {
+        "en": "Oriath, the untouched island, becomes the successor of the Empire: a theocratic dictatorship in Theopolis, built on Karui slave labor. A love story ends in tragedy.",
+        "pt": "Oriath, a ilha intocada, se torna sucessora do Império: uma ditadura teocrática em Theopolis, construída sobre trabalho escravo Karui. Uma história de amor termina em tragédia."
+      },
+      "events": [
+        { "when": { "en": "The Arena", "pt": "A Arena" }, "text": { "en": "Daresso fights in Theopolis's Grand Arena since boyhood. He meets Merveil's eyes and defeats the King of Swords for her hand.", "pt": "Daresso luta na Grande Arena de Theopolis desde garoto. Cruza o olhar com Merveil e derrota o Rei das Espadas por sua mão." } },
+        { "when": { "en": "Star of Wraeclast", "pt": "Estrela de Wraeclast" }, "text": { "en": "His wedding gift is a necklace with a virtue gem. It slowly turns Merveil into a siren.", "pt": "Seu presente de casamento é um colar com uma gema de virtude. Ele aos poucos transforma Merveil em sereia." } },
+        { "when": { "en": "~1450 IC", "pt": "~1450 IC" }, "text": { "en": "Daresso sails for a cure. His spirit ends trapped by Malachai at Highgate. Merveil becomes a full siren on the Coast, waiting for him, and devours Weylam Roth.", "pt": "Daresso parte em busca de cura. Seu espírito acaba preso por Malachai em Highgate. Merveil se torna sereia completa na Costa, esperando por ele, e devora Weylam Roth." } }
+      ],
+      "entities": ["daresso", "merveil", "dominus"], "track": "daresso", "spoiler": false
+    },
+    {
+      "id": "present", "order": 14, "color": "#c9a24b",
+      "year": { "en": "1599 - 1600 IC", "pt": "1599 - 1600 IC" },
+      "title": { "en": "The Exile", "pt": "O Exilado" },
+      "summary": {
+        "en": "High Templar Dominus exiles criminals of Oriath to Wraeclast. You wake face-down on the Twilight Strand. Ten acts: from Merveil to the Beast, from Kitava to the end of hunger.",
+        "pt": "O Alto Templário Dominus exila criminosos de Oriath para Wraeclast. Você acorda de bruços na Twilight Strand. Dez atos: de Merveil à Besta, de Kitava ao fim da fome."
+      },
+      "events": [
+        { "when": { "en": "Day Zero rule", "pt": "Regra do Dia Zero" }, "text": { "en": "Every league's story starts with the exile on the beach. Past leagues' deeds are credited to 'another exile', so the canon stays coherent.", "pt": "A história de cada liga começa com o exilado na praia. Feitos de ligas passadas são creditados a 'outro exilado', mantendo o cânone coerente." } },
+        { "when": { "en": "Act I-IV", "pt": "Atos I-IV" }, "text": { "en": "Merveil, the Vaal Oversoul, Dominus (who is gem-ascended), and Malachai in the Black Heart.", "pt": "Merveil, o Vaal Oversoul, Dominus (que ascende com uma gema) e Malachai no Coração Negro." } },
+        { "when": { "en": "Act V-X", "pt": "Atos V-X" }, "text": { "en": "Kitava is killed in Oriath; the campaign then loops back to the sea, Arakaali, Solaris and Lunaris, Shakari, Garukhan, and a second Kitava at the Altar of Hunger.", "pt": "Kitava é morto em Oriath; a campanha então volta ao mar, Arakaali, Solaris e Lunaris, Shakari, Garukhan, e um segundo Kitava no Altar da Fome." } }
+      ],
+      "entities": ["dominus", "kitava", "hinekora"], "track": "main-theme", "spoiler": true
+    },
+    {
+      "id": "elder-shaper", "order": 15, "color": "#3ec1d3",
+      "year": { "en": "The Atlas", "pt": "O Atlas" },
+      "title": { "en": "The Elder and the Shaper", "pt": "O Ancião e o Moldador" },
+      "summary": {
+        "en": "A scientist's daughter and a thing from outside time. Valdo Caeserius repairs a Map Device, meets a 'Shade' that turns out to be the Elder, frees it by mistake, and spends years as the Shaper trying to hold it back.",
+        "pt": "A filha de um cientista e uma coisa de fora do tempo. Valdo Caeserius conserta um Map Device, encontra uma 'Sombra' que é o Elder, o liberta sem querer e passa anos como o Shaper tentando contê-lo."
+      },
+      "events": [
+        { "when": { "en": "The Watchers", "pt": "Os Vigias" }, "text": { "en": "The Elder preys on children's nightmares. The Watchers of Decay, parents of the stolen, forge Starforge and split its body from its spirit.", "pt": "O Elder se alimenta dos pesadelos de crianças. Os Watchers of Decay, pais das vítimas, forjam a Starforge e separam seu corpo do espírito." } },
+        { "when": { "en": "Valdo's mistake", "pt": "O erro de Valdo" }, "text": { "en": "High Templar Venarius kidnaps Zana, forces Valdo to enter the dreamlands, and demands power from the Elder. The Elder kills him and goes free.", "pt": "O Alto Templário Venarius sequestra Zana, obriga Valdo a entrar nas terras dos sonhos e exige poder do Elder. O Elder o mata e fica livre." } },
+        { "when": { "en": "Zana", "pt": "Zana" }, "text": { "en": "Orphaned, she finds the Atlas of Worlds and hunts 'the Shaper', who is her father with his memory eaten away. The exile defeats him; then Zana expels the Elder with the Cosmic Arcana.", "pt": "Órfã, ela descobre o Atlas of Worlds e caça 'o Shaper', que é seu pai com a memória devorada. O exilado o derrota; depois Zana expulsa o Elder com o Cosmic Arcana." } }
+      ],
+      "entities": ["valdo", "elder", "zana", "venarius"], "track": "shaper-realm", "spoiler": true
+    },
+    {
+      "id": "elderslayers-sirus", "order": 16, "color": "#e07b39",
+      "year": { "en": "The Atlas", "pt": "O Atlas" },
+      "title": { "en": "The Elderslayers and Sirus", "pt": "Os Elderslayers e Sirus" },
+      "summary": {
+        "en": "Zana recruits five exiles. Sirus sacrifices himself to push the Elder back and comes back mad. The group shatters, and the Atlas becomes a prison of madness until Sirus is finally stopped, at the cost of Oriath.",
+        "pt": "Zana recruta cinco exilados. Sirus se sacrifica para empurrar o Elder de volta e retorna enlouquecido. O grupo se despedaça, e o Atlas vira uma prisão de loucura até Sirus finalmente ser detido, ao custo de Oriath."
+      },
+      "events": [
+        { "when": { "en": "The five", "pt": "Os cinco" }, "text": { "en": "Baran (Templar), Veritania (scholar), Drox (warlord), Al-Hezmin (hunter) and Sirus (leader).", "pt": "Baran (templário), Veritania (estudiosa), Drox (senhor da guerra), Al-Hezmin (caçador) e Sirus (líder)." } },
+        { "when": { "en": "The sacrifice", "pt": "O sacrifício" }, "text": { "en": "During the final fight, Sirus shoves the Elder back into the device and is trapped with it. Zana and Sirus had begun to love each other without saying so.", "pt": "Na luta final, Sirus empurra o Elder de volta ao dispositivo e fica preso junto. Zana e Sirus começavam a se amar sem dizer." } },
+        { "when": { "en": "Madness", "pt": "Loucura" }, "text": { "en": "Left in the Atlas, the Elderslayers go mad and destroy worlds. Zana seals the Map Device. Sirus returns with hatred and a storm.", "pt": "Deixados no Atlas, os Elderslayers enlouquecem e destroem mundos. Zana sela o Map Device. Sirus volta com ódio e uma tempestade." } },
+        { "when": { "en": "Oriath burns", "pt": "Oriath arde" }, "text": { "en": "Kirac takes a blow meant for Zana. The exile defeats Sirus but Oriath is burned to the ground. Zana, in despair, leaves the Atlas.", "pt": "Kirac recebe um golpe destinado a Zana. O exilado derrota Sirus, mas Oriath é queimada. Zana, desesperada, deixa o Atlas." } }
+      ],
+      "entities": ["sirus", "zana", "venarius"], "track": "conquerors-basilisk", "spoiler": true
+    }
+  ],
+
+  "entities": [
+    { "id": "kalandra", "type": "being", "name": "Kalandra", "title": { "en": "The Lake's Prisoner", "pt": "A Prisioneira do Lago" }, "desc": { "en": "Trapped in her lake since the molten age. Calls gods 'thieves of virtue'. Possibly helped Sin create the Beast.", "pt": "Presa no lago desde a era do magma. Chama os deuses de 'ladrões de virtude'. Possivelmente ajudou Sin a criar a Besta." } },
+    { "id": "titans", "type": "race", "name": "Titans", "title": { "en": "Walkers of the volcanoes", "pt": "Caminhantes dos vulcões" }, "desc": { "en": "Giants of primordial Wraeclast. Nearly wiped out by the Lightless. The Molten One is the last.", "pt": "Gigantes da Wraeclast primordial. Quase extintos pelos Lightless. O Molten One é o último." } },
+    { "id": "aul", "type": "person", "name": "Aul", "title": { "en": "The Crystal King", "pt": "O Rei de Cristal" }, "desc": { "en": "Slave who toppled a tyrant and became one. Bargained with Kulemak for golems, which later possessed and destroyed his civilization.", "pt": "Escravo que derrubou um tirano e virou tirano. Barganhou golens com Kulemak, que depois possuíram e destruíram sua civilização." } },
+    { "id": "lightless", "type": "race", "name": "The Lightless", "title": { "en": "Beings of the deep", "pt": "Seres das profundezas" }, "desc": { "en": "Possessed golems that fear light. They surfaced in the Winter of the World and still wait underground.", "pt": "Golens possuídos que temem a luz. Subiram no Inverno do Mundo e ainda esperam no subsolo." } },
+    { "id": "ahkeli", "type": "person", "name": "Ahkeli", "title": { "en": "The Clayshaper", "pt": "A Modeladora de Argila" }, "desc": { "en": "Primeval survivor who founded the Order of the Djinn with the Maraketh and died before the sun returned.", "pt": "Sobrevivente primeva que fundou a Ordem dos Djinn com os Maraketh e morreu antes de o sol voltar." } },
+    { "id": "order-djinn", "type": "faction", "name": "Order of the Djinn", "title": { "en": "Defenders of Vastiri", "pt": "Defensores de Vastiri" }, "desc": { "en": "Maraketh and golems who defeated the Lightless. Swore to free Kalandra, then abandoned her.", "pt": "Maraketh e golens que derrotaram os Lightless. Juraram libertar Kalandra e depois a abandonaram." } },
+    { "id": "gruthkul", "type": "god", "name": "Gruthkul", "title": { "en": "Mother of Despair", "pt": "Mãe do Desespero" }, "desc": { "en": "A Nameless accidentally named into being. Crushed by Arakaali under a cavern; her brood survives in the Wildwood.", "pt": "Uma Nameless trazida à existência por um nome dito sem querer. Esmagada por Arakaali sob uma caverna; sua prole sobrevive na Mata." } },
+    { "id": "solaris", "type": "god", "name": "Solaris", "title": { "en": "Goddess of the Sun", "pt": "Deusa do Sol" }, "desc": { "en": "Azmeri sister. Blames Lunaris for her torture (actually Tangmazu) and wages war on her. Credited with returning the sun.", "pt": "Irmã azmeri. Culpa Lunaris pela própria tortura (na verdade, Tangmazu) e a combate. Creditada por devolver o sol." } },
+    { "id": "lunaris", "type": "god", "name": "Lunaris", "title": { "en": "Goddess of the Moon", "pt": "Deusa da Lua" }, "desc": { "en": "Drowned her sickly son; tried by her sister. Imprisoned and tortured, she never confessed.", "pt": "Afogou o filho doente; julgada pela irmã. Presa e torturada, nunca confessou." } },
+    { "id": "tangmazu", "type": "god", "name": "Tangmazu", "title": { "en": "The Raven Trickster", "pt": "O Corvo Trapaceiro" }, "desc": { "en": "Trickster who set Solaris against Lunaris. Possibly the 'deceiver' of Karui myth too.", "pt": "Trapaceiro que colocou Solaris contra Lunaris. Possivelmente o 'enganador' do mito Karui também." } },
+    { "id": "garukhan", "type": "god", "name": "Garukhan", "title": { "en": "Queen of the Wind", "pt": "Rainha do Vento" }, "desc": { "en": "Orbala, Sekhema of Sekhemas, ascended. Freed Sin and bore him Shakari. Slowly loses her mind.", "pt": "Orbala, Sekhema das Sekhemas, ascendida. Libertou Sin e teve Shakari com ele. Perde a sanidade aos poucos." } },
+    { "id": "shakari", "type": "god", "name": "Shakari", "title": { "en": "Queen of the Sands", "pt": "Rainha das Areias" }, "desc": { "en": "Daughter of Sin and Garukhan. Her hunger for power turned her into a half-scorpion; put to sleep by the Beast.", "pt": "Filha de Sin e Garukhan. Sua sede de poder a transformou em meio escorpião; adormecida pela Besta." } },
+    { "id": "tukohama", "type": "god", "name": "Tukohama", "title": { "en": "God of War", "pt": "Deus da Guerra" }, "desc": { "en": "Gave axes to the peaceful Karui. His voice was imitated by Malachai to lure Kaom to Highgate.", "pt": "Deu machados aos pacíficos Karui. Sua voz foi imitada por Malachai para atrair Kaom a Highgate." } },
+    { "id": "kitava", "type": "god", "name": "Kitava", "title": { "en": "Father of Chaos", "pt": "Pai do Caos" }, "desc": { "en": "Born from Hunger. Blinded by Tukohama, impaled by Valako, lashed by Hinekora. Swore to devour the Halls of the Dead.", "pt": "Nascido da Fome. Cegado por Tukohama, empalado por Valako, açoitado por Hinekora. Jurou devorar os Halls of the Dead." } },
+    { "id": "hinekora", "type": "god", "name": "Hinekora", "title": { "en": "Mother of Death", "pt": "Mãe da Morte" }, "desc": { "en": "Karui goddess of death. Her 'prophecies' are memories of past failed worlds. Created the Halls of the Dead.", "pt": "Deusa Karui da morte. Suas 'profecias' são memórias de mundos fracassados do passado. Criou os Halls of the Dead." } },
+    { "id": "sin", "type": "god", "name": "Sin", "title": { "en": "Thief of Virtue", "pt": "Ladrão de Virtude" }, "desc": { "en": "Vilified twin. Created the Beast to put the gods to sleep. Narrates much of the game's lore.", "pt": "Gêmeo difamado. Criou a Besta para adormecer os deuses. Narra boa parte da lore do jogo." } },
+    { "id": "innocence", "type": "god", "name": "Innocence", "title": { "en": "The Golden God", "pt": "O Deus Dourado" }, "desc": { "en": "Ambitious twin who built a religion of fear of fire and became the first High Templar.", "pt": "Gêmeo ambicioso que construiu uma religião do medo do fogo e foi o primeiro Alto Templário." } },
+    { "id": "beast", "type": "being", "name": "The Beast", "title": { "en": "Source of thaumaturgy", "pt": "Fonte da taumaturgia" }, "desc": { "en": "Grew from the Dark Ember. Source of virtue gems, ends mortal ascension, has no will but is easily manipulated.", "pt": "Cresceu da Brasa Sombria. Fonte das gemas de virtude, encerra a ascensão de mortais, não tem vontade própria e é facilmente manipulada." } },
+    { "id": "atziri", "type": "person", "name": "Atziri", "title": { "en": "Queen of the Vaal", "pt": "Rainha dos Vaal" }, "desc": { "en": "Last Vaal queen. Vain, cruel, obsessed with immortality. Lives on in a crimson nightmare realm.", "pt": "Última rainha Vaal. Vaidosa, cruel, obcecada por imortalidade. Vive num reino carmesim de pesadelo." } },
+    { "id": "doryani", "type": "person", "name": "Doryani", "title": { "en": "Atziri's thaumaturge", "pt": "Taumaturgo de Atziri" }, "desc": { "en": "Engineer of the final experiment that caused the Vaal Cataclysm. Malachai saw himself as his heir.", "pt": "Engenheiro do experimento final que causou o Cataclismo Vaal. Malachai se via como seu herdeiro." } },
+    { "id": "arakaali", "type": "god", "name": "Arakaali", "title": { "en": "Spinner of Shadows", "pt": "Fiadora de Sombras" }, "desc": { "en": "Azmeri/Vaal spider goddess, once a mortal temptress. Defeated Gruthkul with a collapsing cavern.", "pt": "Deusa aranha azmeri/Vaal, antes uma sedutora mortal. Derrotou Gruthkul com o desabamento de uma caverna." } },
+    { "id": "olroth", "type": "person", "name": "Olroth", "title": { "en": "The Gallant, the Grim", "pt": "O Galante, o Sombrio" }, "desc": { "en": "Knight of the Sun. First to socket a gem, starting the Kalguur's undoing.", "pt": "Cavaleiro do Sol. Primeiro a encaixar uma gema, iniciando a ruína dos Kalguur." } },
+    { "id": "tarcus-veruso", "type": "person", "name": "Tarcus Veruso", "title": { "en": "First Emperor", "pt": "Primeiro Imperador" }, "desc": { "en": "Azmerian chieftain who founded Sarn in 1 IC and outlawed thaumaturgy.", "pt": "Chefe azmeri que fundou Sarn em 1 IC e baniu a taumaturgia." } },
+    { "id": "cadiro", "type": "person", "name": "Cadiro Perandus", "title": { "en": "The Merchant Lord", "pt": "O Lorde Mercador" }, "desc": { "en": "Chitus's uncle. Stole the Empire's treasury and bound debtors to Prospero's service after death.", "pt": "Tio de Chitus. Roubou o tesouro do Império e prendeu devedores ao serviço de Prospero após a morte." } },
+    { "id": "izaro", "type": "person", "name": "Izaro", "title": { "en": "Emperor of the Labyrinth", "pt": "Imperador do Labirinto" }, "desc": { "en": "Last Phrecian emperor. Built the Lord's Labyrinth; imprisoned inside it by Chitus.", "pt": "Último imperador Phrecian. Construiu o Labirinto do Lorde; preso nele por Chitus." } },
+    { "id": "chitus", "type": "person", "name": "Chitus", "title": { "en": "Perandus Emperor", "pt": "Imperador Perandus" }, "desc": { "en": "Cheated his way to the throne, enslaved three peoples, bound his Gemlings to his heart. Killed by Ondar.", "pt": "Trapaceou até o trono, escravizou três povos, ligou seus Gemlings ao próprio coração. Morto por Ondar." } },
+    { "id": "malachai", "type": "person", "name": "Malachai", "title": { "en": "The Nightmare", "pt": "O Pesadelo" }, "desc": { "en": "Laureate Thaumaturge who became the Beast's master. Triggered the Cataclysm.", "pt": "Taumaturgo Laureado que virou mestre da Besta. Provocou o Cataclismo." } },
+    { "id": "maligaro", "type": "person", "name": "Maligaro", "title": { "en": "Inquisitor of the Godless Three", "pt": "Inquisidor dos Três Sem-Deus" }, "desc": { "en": "Flesh artist, creator of Maligaro's Spike and the Black Elixir. Burned by Voll, survives in a sanctum.", "pt": "Artista da carne, criador do Spike de Maligaro e do Black Elixir. Queimado por Voll, sobrevive em um santuário." } },
+    { "id": "dialla", "type": "person", "name": "Dialla", "title": { "en": "Gemling Queen", "pt": "Rainha Gemling" }, "desc": { "en": "Malachai's concubine and lover. Refused to die for the Rapture Device and lived for centuries.", "pt": "Concubina e amante de Malachai. Recusou morrer pelo Rapture Device e viveu séculos." } },
+    { "id": "voll", "type": "person", "name": "Voll", "title": { "en": "Emperor of Purity", "pt": "Imperador da Pureza" }, "desc": { "en": "High Templar who led the Purity Rebellion and trusted Malachai. His mistake ended the Empire.", "pt": "Alto Templário que liderou a Rebelião da Pureza e confiou em Malachai. Seu erro encerrou o Império." } },
+    { "id": "victario", "type": "person", "name": "Victario", "title": { "en": "Poet of Sarn", "pt": "Poeta de Sarn" }, "desc": { "en": "Poet and art critic whose letters and graffiti ignited the rebellion. Died in the Cataclysm.", "pt": "Poeta e crítico de arte cujas cartas e pichações acenderam a rebelião. Morreu no Cataclismo." } },
+    { "id": "kaom", "type": "person", "name": "Kaom", "title": { "en": "King of the Karui", "pt": "Rei dos Karui" }, "desc": { "en": "Unified the Karui, killed Lioneye, then was devoured by the Beast at Highgate.", "pt": "Unificou os Karui, matou Lioneye e foi devorado pela Besta em Highgate." } },
+    { "id": "deshret", "type": "person", "name": "Deshret", "title": { "en": "The Red Sekhema", "pt": "A Sekhema Vermelha" }, "desc": { "en": "Maraketh leader who destroyed Titucius and later sealed the Highgate mines.", "pt": "Líder Maraketh que destruiu Titucius e depois selou as minas de Highgate." } },
+    { "id": "rigwald", "type": "person", "name": "Rigwald", "title": { "en": "Thane of the Ezomytes", "pt": "Thane dos Ezomytes" }, "desc": { "en": "Killed King Skothe and led the Bloody Flowers Rebellion at Glarryn.", "pt": "Matou o rei Skothe e liderou a Rebelião das Flores Sangrentas em Glarryn." } },
+    { "id": "marceus-lioneye", "type": "person", "name": "Marceus Lioneye", "title": { "en": "The Archer-General", "pt": "O General Arqueiro" }, "desc": { "en": "Eternal general with a gem for an eye. Fell to Hyrri's archers after discarding his shields.", "pt": "General Eterno com uma gema no lugar do olho. Caiu diante das arqueiras de Hyrri após descartar os escudos." } },
+    { "id": "daresso", "type": "person", "name": "Daresso", "title": { "en": "King of Swords", "pt": "Rei das Espadas" }, "desc": { "en": "Champion of the Grand Arena who loved Merveil. His spirit is trapped at Highgate.", "pt": "Campeão da Grande Arena que amava Merveil. Seu espírito está preso em Highgate." } },
+    { "id": "merveil", "type": "person", "name": "Merveil", "title": { "en": "The Siren", "pt": "A Sereia" }, "desc": { "en": "Daresso's wife, transformed by the Star of Wraeclast. Final boss of Act I.", "pt": "Esposa de Daresso, transformada pela Star of Wraeclast. Chefe final do Ato I." } },
+    { "id": "dominus", "type": "person", "name": "Dominus", "title": { "en": "High Templar of Oriath", "pt": "Alto Templário de Oriath" }, "desc": { "en": "Succeeded Venarius. Exiles criminals to Wraeclast. Final boss of Act III.", "pt": "Sucedeu Venarius. Exila criminosos para Wraeclast. Chefe final do Ato III." } },
+    { "id": "valdo", "type": "person", "name": "Valdo Caeserius", "title": { "en": "The Shaper", "pt": "O Moldador" }, "desc": { "en": "Arkhon of Theopolis, father of Zana. Became the Shaper while trapped in the Atlas.", "pt": "Arkhon de Theopolis, pai de Zana. Virou o Shaper enquanto preso no Atlas." } },
+    { "id": "elder", "type": "being", "name": "The Elder", "title": { "en": "Malignant madness", "pt": "Loucura maligna" }, "desc": { "en": "Entity of the Decay that feeds on nightmares and memories. Expelled from the Atlas by the Cosmic Arcana.", "pt": "Entidade do Decay que se alimenta de pesadelos e memórias. Expulso do Atlas pelo Cosmic Arcana." } },
+    { "id": "zana", "type": "person", "name": "Zana", "title": { "en": "Master Cartographer", "pt": "Mestra Cartógrafa" }, "desc": { "en": "Valdo's daughter. Rediscovered the Atlas and recruited the Elderslayers.", "pt": "Filha de Valdo. Redescobriu o Atlas e recrutou os Elderslayers." } },
+    { "id": "venarius", "type": "person", "name": "Venarius", "title": { "en": "High Templar before Dominus", "pt": "Alto Templário antes de Dominus" }, "desc": { "en": "Ordered Valdo to study the Map Device and freed the Elder by greed. Killed by it.", "pt": "Ordenou que Valdo estudasse o Map Device e libertou o Elder por ganância. Morto por ele." } },
+    { "id": "sirus", "type": "person", "name": "Sirus", "title": { "en": "Awakener of Worlds", "pt": "Despertador de Mundos" }, "desc": { "en": "Leader of the Elderslayers. Sacrificed himself, was twisted by the Elder, returned mad.", "pt": "Líder dos Elderslayers. Sacrificou-se, foi corrompido pelo Elder e voltou enlouquecido." } }
+  ],
+
+  "acts": [
+    { "n": 1, "boss": "Merveil", "town": "Lioneye's Watch", "track": "merveil", "title": { "en": "Shipwreck on the Twilight Strand", "pt": "Naufrágio na Twilight Strand" }, "summary": { "en": "Washed ashore, you reach Lioneye's Watch, cross the Coast, the Prison (Brutus) and the Ship Graveyard (Fairgraves), and descend to Merveil's cavern.", "pt": "Jogado na praia, você chega a Lioneye's Watch, cruza a Coast, a Prison (Brutus) e o Ship Graveyard (Fairgraves), e desce à caverna de Merveil." }, "zones": ["Twilight Strand", "Coast", "Prison", "Prisoner's Gate", "Ship Graveyard", "Cavern of Anger"], "ties": ["merveil", "daresso", "marceus-lioneye"] },
+    { "n": 2, "boss": "Vaal Oversoul", "town": "Forest Encampment", "track": "forest-encampment", "title": { "en": "The Southern Forest and the Maligaro's legacy", "pt": "A Floresta do Sul e o legado de Maligaro" }, "summary": { "en": "Chamber of Sins, Fellshrine Ruins, the Weaver and Vaal ruins. You break the seal and kill the Vaal Oversoul, a construct housing the old darkness.", "pt": "Chamber of Sins, Fellshrine Ruins, o Weaver e as ruínas Vaal. Você rompe o selo e mata o Vaal Oversoul, um construto que abrigava a antiga escuridão." }, "zones": ["Old Fields", "Chamber of Sins", "Fellshrine Ruins", "Western Forest", "Weaver's Nest", "Vaal Ruins", "Ancient Pyramid"], "ties": ["maligaro", "chitus", "tarcus-veruso"] },
+    { "n": 3, "boss": "Dominus", "town": "Sarn Encampment", "track": "sarn-encampment", "title": { "en": "The fallen City of Sarn", "pt": "A cidade caída de Sarn" }, "summary": { "en": "Slums, Sewers, Marketplace, Solaris and Lunaris Temples, the Imperial Gardens and the Sceptre of God. Dominus is killed, then ascends to a stronger form.", "pt": "Slums, Sewers, Marketplace, Templos de Solaris e Lunaris, Imperial Gardens e Sceptre of God. Dominus é morto e depois ascende a uma forma mais forte." }, "zones": ["City of Sarn", "Crematorium", "Sewers", "Battlefront", "Docks", "Solaris Temple", "Lunaris Temple", "Imperial Gardens", "Sceptre of God"], "ties": ["victario", "dialla", "solaris", "lunaris", "dominus"] },
+    { "n": 4, "boss": "Malachai", "town": "Highgate", "track": "highgate", "title": { "en": "Highgate and the Belly of the Beast", "pt": "Highgate e o Ventre da Besta" }, "summary": { "en": "Voll at the Dried Lake, the mines, Kaom's Stronghold and Daresso's Dream feed the Rapture Device. You enter the Beast and kill Malachai.", "pt": "Voll no Dried Lake, as minas, Kaom's Stronghold e Daresso's Dream alimentam o Rapture Device. Você entra na Besta e mata Malachai." }, "zones": ["Dried Lake", "Mines", "Crystal Veins", "Kaom's Stronghold", "Daresso's Dream", "Belly of the Beast", "Black Core"], "ties": ["voll", "deshret", "kaom", "daresso", "malachai", "beast"] },
+    { "n": 5, "boss": "Kitava", "town": "Overseer's Tower", "track": "kitava", "title": { "en": "Oriath and the Templars", "pt": "Oriath e os Templários" }, "summary": { "en": "With the Beast dead, the exile reaches Oriath and kills High Templar Avarius and Innocence, then faces Kitava at the Cathedral Apex.", "pt": "Com a Besta morta, o exilado chega a Oriath e mata o Alto Templário Avarius e Innocence, depois enfrenta Kitava no Cathedral Apex." }, "zones": ["Slave Pens", "Control Blocks", "Templar Courts", "Chamber of Innocence", "Ossuary", "Reliquary", "Cathedral Apex"], "ties": ["innocence", "kitava", "hinekora", "tukohama"] },
+    { "n": 6, "boss": "Tsoagoth, the Brine King", "town": "Lioneye's Watch", "track": "brine-king", "title": { "en": "Back to the sea", "pt": "De volta ao mar" }, "summary": { "en": "The campaign loops back to Act 1 areas with new threats: Tukohama, Abberath, Ryslatha; Weylam Roth sails you to the Brine King.", "pt": "A campanha volta às áreas do Ato 1 com novas ameaças: Tukohama, Abberath, Ryslatha; Weylam Roth leva você ao Brine King." }, "zones": ["Karui Fortress", "Ridge", "Shavronne's Tower", "Valley of the Fire Drinker", "Wetlands", "Beacon", "Brine King's Reef"], "ties": ["tukohama", "merveil"] },
+    { "n": 7, "boss": "Arakaali", "town": "Bridge Encampment", "track": "arakaali", "title": { "en": "The Vaal City and the spider", "pt": "A Cidade Vaal e a aranha" }, "summary": { "en": "Maligaro's Sanctum, Gruthkul's Den, Ralakesh as Greust, Kishara's Star and the Temple of Decay where Arakaali waits.", "pt": "O Santuário de Maligaro, o Den de Gruthkul, Ralakesh como Greust, a Kishara's Star e o Temple of Decay onde Arakaali espera." }, "zones": ["Crossroads", "Maligaro's Sanctum", "Dread Thicket", "Causeway", "Vaal City", "Temple of Decay"], "ties": ["maligaro", "gruthkul", "arakaali", "atziri"] },
+    { "n": 8, "boss": "Solaris & Lunaris", "town": "Sarn Encampment", "track": "solaris-lunaris", "title": { "en": "The sisters at war", "pt": "As irmãs em guerra" }, "summary": { "en": "Doedre, Yugul, the Gemling Legion, the Ankh of Eternity and Tolman. Sun Orb and Moon Orb unlock the Sky Shrine; you kill both goddesses.", "pt": "Doedre, Yugul, a Gemling Legion, o Ankh da Eternidade e Tolman. Sun Orb e Moon Orb abrem o Sky Shrine; você mata as duas deusas." }, "zones": ["Toxic Conduits", "Doedre's Cesspool", "Bath House", "High Gardens", "Quay", "Grain Gate", "Lunaris Temple", "Solaris Temple", "Sky Shrine"], "ties": ["solaris", "lunaris", "tarcus-veruso", "tangmazu"] },
+    { "n": 9, "boss": "The Depraved Trinity", "town": "Highgate", "track": "shakari", "title": { "en": "The Vastiri Desert", "pt": "O Deserto de Vastiri" }, "summary": { "en": "Shakari, General Adus, Garukhan, and Sin's own request to enter the Rotting Core. Godless Three are slain again in the Black Heart.", "pt": "Shakari, General Adus, Garukhan, e o pedido do próprio Sin para entrar no Rotting Core. Os Três Sem-Deus são mortos de novo no Black Heart." }, "zones": ["Vastiri Desert", "Oasis", "Foothills", "Boiling Lake", "Tunnel", "Quarry", "Shrine of the Winds", "Refinery", "Rotting Core"], "ties": ["shakari", "garukhan", "sin", "maligaro"] },
+    { "n": 10, "boss": "Kitava", "town": "Oriath Docks", "track": "altar-hunger", "title": { "en": "An End to Hunger", "pt": "Um Fim à Fome" }, "summary": { "en": "Back in a ruined Oriath: Avarius's staff, Vilenta, Innocence, the Canals and the Feeding Trough. At the Altar of Hunger, Kitava is killed for good.", "pt": "De volta a uma Oriath em ruínas: o cajado de Avarius, Vilenta, Innocence, os Canals e o Feeding Trough. No Altar of Hunger, Kitava é morto de vez." }, "zones": ["Cathedral Rooftop", "Ravaged Square", "Torched Courts", "Desecrated Chambers", "Control Blocks", "Canals", "Feeding Trough", "Altar of Hunger"], "ties": ["kitava", "innocence", "hinekora"] }
+  ],
+
+  "atlas": [
+    { "id": "kirac", "title": { "en": "A Call to Arms", "pt": "Um Chamado às Armas" }, "text": { "en": "After the campaign, Commander Kirac gives you a Tier 1 Map. Maps are visions of 'dreams': potential realities seen through the Map Device. The Atlas has 100 regular maps across four quadrants.", "pt": "Após a campanha, o Comandante Kirac entrega um Mapa Tier 1. Mapas são visões de 'sonhos': realidades potenciais vistas pelo Map Device. O Atlas tem 100 mapas regulares em quatro quadrantes." }, "track": "main-theme" },
+    { "id": "shaper-elder", "title": { "en": "The Shaper and the Elder", "pt": "O Shaper e o Elder" }, "text": { "en": "Guardians (Forge of the Phoenix, Maze of the Minotaur, Pit of the Chimera, Lair of the Hydra) protect the Shaper's Realm. The Elder lurks in Absence of Value and Meaning.", "pt": "Guardiões (Forge of the Phoenix, Maze of the Minotaur, Pit of the Chimera, Lair of the Hydra) protegem o Shaper's Realm. O Elder espreita em Absence of Value and Meaning." }, "track": "elder" },
+    { "id": "conquerors", "title": { "en": "Conquerors of the Atlas", "pt": "Conquistadores do Atlas" }, "text": { "en": "The former Elderslayers (Baran, Veritania, Al-Hezmin, Drox) rule regions of the Atlas. Sirus waits in the Eye of the Storm.", "pt": "Os ex-Elderslayers (Baran, Veritania, Al-Hezmin, Drox) governam regiões do Atlas. Sirus espera no Eye of the Storm." }, "track": "conquerors-basilisk" },
+    { "id": "maven", "title": { "en": "The Maven", "pt": "A Maven" }, "text": { "en": "A watcher of the Atlas who invites exiles to test themselves. Her pinnacle domain is Absence of Mercy and Empathy.", "pt": "Uma observadora do Atlas que convida exilados a se testarem. Seu domínio final é Absence of Mercy and Empathy." }, "track": "maven" },
+    { "id": "siege", "title": { "en": "Siege of the Atlas", "pt": "Cerco ao Atlas" }, "text": { "en": "The Searing Exarch and the Eater of Worlds, the Cleansing Fire and the Tangle, struggle over the Atlas from opposite impulses.", "pt": "O Searing Exarch e o Eater of Worlds, o Cleansing Fire e o Tangle, disputam o Atlas a partir de impulsos opostos." }, "track": "cleansing-fire" },
+    { "id": "secrets", "title": { "en": "Secrets of the Atlas", "pt": "Segredos do Atlas" }, "text": { "en": "Threads of the Originator: memory threads and the Incarnations of Neglect, Fear and Dread. The Atlas as it was known is destroyed.", "pt": "Threads of the Originator: fios de memória e as Encarnações de Neglect, Fear e Dread. O Atlas como era conhecido é destruído." }, "track": "memory-threads" }
+  ]
+}

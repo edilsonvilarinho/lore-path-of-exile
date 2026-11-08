@@ -1,0 +1,69 @@
+# syntax=docker/dockerfile:1
+# Dokploy build file. Build Type: Dockerfile · Dockerfile Path: Dockerfile.dokploy
+# Docker Context Path: .
+#
+# Single container: Express serves the API (/api/campaign, /api/lore, /api/health),
+# the official waypoint maps (/assets/maps), the Vue build and the soundtrack
+# (/audio, HTTP Range). No database, no state: replicas are safe.
+# In Dokploy configure:
+#   - Port: 3000
+#   - Mount with the mp3 files -> /audio (read-only is enough).
+#     The soundtrack is NOT baked into the image: ~551 MB, gitignored, and owned by
+#     Grinding Gear Games. Generate it locally with `npm run copy:audio -- <mp3 dir>` and upload
+#     the contents of server/public/audio/ to the host path / volume mounted on /audio.
+#     Without the mount the site works and music requests return 404.
+
+# Do NOT copy package-lock.json: generated on Windows, it omits Linux-only optional
+# deps (native Rolldown/Vite binaries), tripping npm bug #4828. Resolve fresh on Linux.
+
+# --- Deps stage: production dependencies only (server runtime = express) ---
+# Client packages live in devDependencies (bundled by Vite), so --omit=dev
+# leaves just what server/src needs at runtime.
+FROM node:24-bookworm AS deps
+WORKDIR /app
+COPY package.json ./
+COPY server/package.json server/package.json
+COPY client/package.json client/package.json
+RUN npm install --omit=dev --no-audit --no-fund
+
+# --- Build stage: full install, build the Vue client ---
+FROM node:24-bookworm AS build
+WORKDIR /app
+COPY package.json ./
+COPY server/package.json server/package.json
+COPY client/package.json client/package.json
+RUN npm install --no-audit --no-fund
+COPY . .
+RUN npm run build -w client
+
+# --- Runtime stage ---
+FROM node:24-bookworm-slim AS runtime
+ENV NODE_ENV=production \
+    HOST=0.0.0.0 \
+    PORT=3000 \
+    AUDIO_DIR=/audio \
+    PUBLIC_DIR=/app/public
+
+# tini: PID 1 that forwards SIGTERM so redeploys stop the container promptly.
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends tini \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+# npm workspaces hoist deps to the root node_modules.
+COPY --from=deps /app/node_modules ./node_modules
+COPY --from=build /app/package.json ./package.json
+COPY --from=build /app/server/package.json ./server/package.json
+COPY --from=build /app/server/src ./server/src
+COPY --from=build /app/data/lore.json /app/data/campaign.json ./data/
+COPY --from=build /app/assets/maps ./assets/maps
+COPY --from=build /app/client/dist ./public
+
+RUN mkdir -p /audio
+USER node
+
+EXPOSE 3000
+HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
+    CMD ["node", "-e", "fetch('http://127.0.0.1:'+(process.env.PORT||3000)+'/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+ENTRYPOINT ["/usr/bin/tini", "--"]
+CMD ["node", "server/src/index.js"]

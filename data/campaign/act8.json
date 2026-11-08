@@ -1,0 +1,44 @@
+{
+  "n": 8, "map": "waypoint_map_act_8.jpg", "w": 606, "h": 385, "levels": "55–60", "town": "The Sarn Encampment", "track": "sarn-encampment",
+  "title": { "en": "The Sisters of Sarn", "pt": "As Irmãs de Sarn" },
+  "story": {
+    "en": "Back in Sarn, now on the far side of the river. Lunaris and Solaris, the Eternal goddesses of Moon and Sun, have risen to reclaim the city. Sin wants his last soul: Doedre Darktongue, festering in the sewers. Clarissa has learned the Azmerian ritual for the Ankh of Eternity, the same artefact Tarcus Veruso used on his wife, and she wants to bring Tolman back. The Gemling Legion marches again at the Grain Gate. In Izaro's High Gardens hides Yugul, the Vaal scholar who became a god of fear. Two exiles have become fanatics of the goddesses, 'Dusk' and 'Dawn', each guarding an orb. Bring the Moon Orb and Sun Orb to the Sky Shrine on the Harbour Bridge and kill both sisters.",
+    "pt": "De volta a Sarn, agora do outro lado do rio. Lunaris e Solaris, as deusas Eternas da Lua e do Sol, se ergueram para retomar a cidade. Sin quer sua última alma: Doedre Língua-Negra, apodrecendo nos esgotos. Clarissa aprendeu o ritual azmeri do Ankh of Eternity, o mesmo artefato que Tarcus Veruso usou na esposa, e quer trazer Tolman de volta. A Gemling Legion marcha de novo no Grain Gate. Nos High Gardens de Izaro se esconde Yugul, o estudioso Vaal que virou deus do medo. Dois exilados viraram fanáticos das deusas, 'Dusk' e 'Dawn', e cada um guarda um orbe. Leve o Moon Orb e o Sun Orb ao Sky Shrine na Harbour Bridge e mate as duas irmãs."
+  },
+  "npcs": [
+    { "name": "Maramoa, Clarissa, Hargan", "role": { "en": "Sarn survivors from Act 3", "pt": "Sobreviventes de Sarn do Ato 3" } },
+    { "name": "Sin", "role": { "en": "Wants Doedre's soul", "pt": "Quer a alma de Doedre" } }
+  ],
+  "bosses": [
+    { "name": "Doedre the Vile", "area": "2_8_2_2", "lore": { "en": "Doedre Darktongue, Malachai's disciple obsessed with 'the meat' and curses. Burned by Voll, she returned in the Cesspool.", "pt": "Doedre Língua-Negra, discípula de Malachai obcecada pela 'carne' e por maldições. Queimada por Voll, voltou no Cesspool." } },
+    { "name": "Tolman", "area": "2_8_8", "lore": { "en": "Clarissa's lover, revived by the Ankh of Eternity. Like Chiara before him, he comes back wrong.", "pt": "Amado de Clarissa, revivido pelo Ankh of Eternity. Como Chiara antes dele, volta errado." } },
+    { "name": "Yugul, Reflection of Terror", "area": "2_8_4", "lore": { "en": "Vaal scholar who terrified children and captured their fear in eldritch mirrors, then frightened the Vaal into worshipping him.", "pt": "Estudioso Vaal que aterrorizava crianças e capturava o medo delas em espelhos sobrenaturais, até assustar os Vaal a ponto de o adorarem." } },
+    { "name": "Hector Titucius, Eternal Servant", "area": "2_8_5", "lore": { "en": "The Eternal general Deshret destroyed in the dust storm. He still guards the Wings of Vastiri, taken from Sekhema Asenath.", "pt": "O general Eterno que Deshret destruiu na tempestade de poeira. Ainda guarda as Wings of Vastiri, tiradas da sekhema Asenath." } },
+    { "name": "Solaris & Lunaris", "area": "2_8_13", "final": true, "track": "solaris-lunaris", "lore": { "en": "Twin goddesses of Sun and Moon, at war since Tangmazu tricked Solaris into believing her sister betrayed her.", "pt": "Deusas gêmeas do Sol e da Lua, em guerra desde que Tangmazu enganou Solaris, fazendo-a crer que a irmã a traiu." } }
+  ],
+  "quests": [
+    { "name": "Essence of the Hag", "req": true, "boss": "Doedre", "area": "2_8_2_2", "sum": { "en": "Hargan knows where Doedre is: the Toxic Conduits. Kill her in the Cauldron so Sin can harvest the third soul.", "pt": "Hargan sabe onde Doedre está: os Toxic Conduits. Mate-a no Cauldron para Sin colher a terceira alma." } },
+    { "name": "Love is Dead", "req": false, "boss": "Tolman", "area": "2_8_8", "sum": { "en": "Clarissa: 'All I need is the Ankh of Eternity and I can bring Tolman back… properly this time.' The ritual fails.", "pt": "Clarissa: 'Só preciso do Ankh of Eternity e posso trazer Tolman de volta… direito desta vez.' O ritual falha." } },
+    { "name": "The Gemling Legion", "req": false, "boss": "Gemling Captain", "area": "2_8_9", "sum": { "en": "Maramoa saw Chitus's former Gemling legionnaires regaining sentience at the Grain Gate.", "pt": "Maramoa viu os antigos legionários Gemling de Chitus recobrando a consciência no Grain Gate." } },
+    { "name": "Reflection of Terror", "req": false, "boss": "Yugul", "area": "2_8_4", "sum": { "en": "Sin: 'The only way to truly understand fear is to become it.' Kill Yugul in Izaro's garden.", "pt": "Sin: 'O único jeito de entender o medo de verdade é se tornar ele.' Mate Yugul no jardim de Izaro." } },
+    { "name": "The Wings of Vastiri", "req": false, "boss": "Hector Titucius", "area": "2_8_5", "sum": { "en": "Hargan wants the Maraketh's highest symbol of office back from the undead Titucius.", "pt": "Hargan quer de volta o maior símbolo de poder dos Maraketh, guardado pelo morto-vivo Titucius." } },
+    { "name": "Lunar Eclipse", "req": true, "boss": "Dusk", "area": "2_8_7_1_", "sum": { "en": "Kill Dusk, Harbinger of Lunaris, for the Moon Orb.", "pt": "Mate Dusk, Arauto de Lunaris, pelo Moon Orb." } },
+    { "name": "Solar Eclipse", "req": true, "boss": "Dawn", "area": "2_8_12_1", "sum": { "en": "Kill Dawn, Harbinger of Solaris, for the Sun Orb. With both orbs, summon and kill the sisters.", "pt": "Mate Dawn, Arauto de Solaris, pelo Sun Orb. Com os dois orbes, invoque e mate as irmãs." } }
+  ],
+  "nodes": [
+    { "id": "2_8_town", "name": "The Sarn Encampment", "x": 310, "y": 249, "town": true, "track": "sarn-encampment" },
+    { "id": "2_8_1", "name": "The Sarn Ramparts", "x": 460, "y": 289, "wp": true, "lvl": 55, "track": "sarn" },
+    { "id": "2_8_2_2", "name": "Doedre's Cesspool", "also": "The Toxic Conduits", "x": 310, "y": 195, "wp": true, "lvl": 56 },
+    { "id": "2_8_3", "name": "The Grand Promenade", "x": 192, "y": 207, "lvl": 56 },
+    { "id": "2_8_5", "name": "The Bath House", "x": 195, "y": 157, "wp": true, "lvl": 57 },
+    { "id": "2_8_4", "name": "The High Gardens", "x": 144, "y": 157, "lvl": 58, "track": "imperial-gardens" },
+    { "id": "2_8_6", "name": "The Lunaris Concourse", "x": 199, "y": 120, "wp": true, "lvl": 58 },
+    { "id": "2_8_7_1_", "name": "The Lunaris Temple", "also": "Level 2", "x": 126, "y": 114, "wp": true, "lvl": 59 },
+    { "id": "2_8_13", "name": "The Harbour Bridge", "x": 273, "y": 131, "lvl": 60, "track": "solaris-lunaris" },
+    { "id": "2_8_11", "name": "The Solaris Concourse", "x": 323, "y": 94, "wp": true, "lvl": 58 },
+    { "id": "2_8_12_1", "name": "The Solaris Temple", "also": "Level 2", "x": 363, "y": 62, "wp": true, "lvl": 59, "track": "solaris-temple" },
+    { "id": "2_8_10", "name": "The Imperial Fields", "x": 526, "y": 110, "wp": true, "lvl": 58 },
+    { "id": "2_8_9", "name": "The Grain Gate", "x": 447, "y": 170, "wp": true, "lvl": 57, "track": "battlefront" },
+    { "id": "2_8_8", "name": "The Quay", "x": 381, "y": 182, "lvl": 57 }
+  ]
+}

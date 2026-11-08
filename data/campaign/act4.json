@@ -1,0 +1,43 @@
+{
+  "n": 4, "map": "waypoint_map_act_4.jpg", "w": 610, "h": 385, "levels": "33–40", "town": "Highgate", "track": "highgate",
+  "title": { "en": "Highgate and the Beast", "pt": "Highgate e a Besta" },
+  "story": {
+    "en": "Highgate is the mountain above the Beast, the source of all thaumaturgy that Sin planted long ago. For two centuries a Maraketh akhara led by Sekhema Oyun has guarded the seal that Deshret placed on the mines. Voll, the 'Brittle Emperor' whose trust in Malachai caused the Cataclysm, still haunts the Dried Lake with Deshret's Banner. Take it, break the seal and descend. In the Crystal Veins, Dialla waits by Malachai's Rapture Device, which needs two gems: the Eye of Fury held by King Kaom and the Eye of Desire held by Daresso, both trapped in dreams of the Beast. With both eyes the device tears open the Beast. Inside, Piety, Malachai's three revived disciples (Shavronne, Maligaro and Doedre) guard his organs. In the Black Heart, you kill Malachai and the Beast itself. Then you climb the Ascent and cross to Oriath.",
+    "pt": "Highgate é a montanha sobre a Besta, a fonte de toda taumaturgia que Sin plantou há muito tempo. Há dois séculos uma akhara Maraketh liderada pela sekhema Oyun guarda o selo que Deshret pôs nas minas. Voll, o 'Imperador Quebradiço' cuja confiança em Malachai causou o Cataclismo, ainda assombra o Dried Lake com o Estandarte de Deshret. Pegue-o, quebre o selo e desça. Nos Crystal Veins, Dialla espera ao lado do Rapture Device de Malachai, que precisa de duas gemas: o Olho da Fúria, com o rei Kaom, e o Olho do Desejo, com Daresso, ambos presos em sonhos da Besta. Com os dois olhos o dispositivo rasga a Besta. Lá dentro, Piety e os três discípulos ressuscitados de Malachai (Shavronne, Maligaro e Doedre) guardam os órgãos dele. No Black Heart você mata Malachai e a própria Besta. Depois sobe o Ascent e atravessa para Oriath."
+  },
+  "npcs": [
+    { "name": "Oyun", "role": { "en": "Sekhema of the Highgate akhara", "pt": "Sekhema da akhara de Highgate" } },
+    { "name": "Tasuni", "role": { "en": "Blind Maraketh, hears Deshret's spirit", "pt": "Maraketh cego, ouve o espírito de Deshret" } },
+    { "name": "Kira", "role": { "en": "Maraketh warrior, Tasuni's sister", "pt": "Guerreira Maraketh, irmã de Tasuni" } },
+    { "name": "Petarus and Vanja", "role": { "en": "Merchant couple", "pt": "Casal de mercadores" } },
+    { "name": "Niko", "role": { "en": "Miner, opens Delve (Azurite Mine)", "pt": "Minerador, abre o Delve (Azurite Mine)" } }
+  ],
+  "bosses": [
+    { "name": "Voll, Emperor of Purity", "area": "1_4_2", "track": "dried-lake", "lore": { "en": "Leader of the Purity Rebellion. He spared Malachai, who then caused the Cataclysm. He fled to the Dried Lake, wrote his Confession, and killed Deshret to take her banner.", "pt": "Líder da Rebelião da Pureza. Poupou Malachai, que então causou o Cataclismo. Fugiu para o Dried Lake, escreveu sua Confissão e matou Deshret para tomar o estandarte dela." } },
+    { "name": "King Kaom", "area": "1_4_4_3", "track": "kaoms-stronghold", "lore": { "en": "Unifier of the Karui who killed Lioneye. Lured to Highgate by Malachai imitating Tukohama's voice, he slaughtered his own 500 warriors and was devoured by the Beast.", "pt": "Unificador dos Karui que matou Lioneye. Atraído a Highgate por Malachai imitando a voz de Tukohama, massacrou seus próprios 500 guerreiros e foi devorado pela Besta." } },
+    { "name": "Daresso, King of Swords", "area": "1_4_5_2", "track": "grand-arena", "lore": { "en": "Champion of Theopolis's Grand Arena, Merveil's husband. He left Oriath to find a cure for her; his spirit ended trapped by Malachai, reliving the arena.", "pt": "Campeão da Grande Arena de Theopolis, marido de Merveil. Deixou Oriath para buscar cura para ela; seu espírito acabou preso por Malachai, revivendo a arena." } },
+    { "name": "Shavronne, Maligaro, Doedre", "area": "1_4_6_3", "lore": { "en": "The Godless Three, Malachai's disciples, revived to guard his Entrails, Heart and Lungs, the organs that tie him to mortality.", "pt": "Os Três Sem-Deus, discípulos de Malachai, ressuscitados para guardar as Entranhas, o Coração e os Pulmões dele, os órgãos que o prendem à mortalidade." } },
+    { "name": "Malachai, The Nightmare", "area": "1_4_6_3", "final": true, "track": "heart-corruption", "lore": { "en": "Chitus's Laureate Thaumaturge, the 'Father of Dreams'. He tore into the Beast with the Rapture Device to master it and triggered the Cataclysm.", "pt": "Taumaturgo Laureado de Chitus, o 'Pai dos Sonhos'. Rasgou a Besta com o Rapture Device para dominá-la e provocou o Cataclismo." } }
+  ],
+  "quests": [
+    { "name": "Breaking the Seal", "req": true, "boss": "Voll", "area": "1_4_2", "sum": { "en": "Oyun: Deshret sealed the mines but lacked the courage to destroy the Beast. Kill Voll at the Dried Lake and use Deshret's Banner on the seal.", "pt": "Oyun: Deshret selou as minas, mas faltou coragem para destruir a Besta. Mate Voll no Dried Lake e use o Estandarte de Deshret no selo." } },
+    { "name": "An Indomitable Spirit", "req": false, "area": "1_4_3_1", "sum": { "en": "Tasuni hears Deshret's chained spirit. Free her in the Mines so the Red Sekhema can return to the dust of Vastiri.", "pt": "Tasuni ouve o espírito acorrentado de Deshret. Liberte-a nas Mines para que a Sekhema Vermelha volte à poeira de Vastiri." } },
+    { "name": "The King of Fury", "req": true, "boss": "King Kaom", "area": "1_4_4_3", "sum": { "en": "Take the Eye of Fury from King Kaom for the Rapture Device.", "pt": "Tome o Olho da Fúria do rei Kaom para o Rapture Device." } },
+    { "name": "The King of Desire", "req": true, "boss": "Daresso", "area": "1_4_5_2", "sum": { "en": "Fight through Daresso's Dream and the Grand Arena; kill Daresso for the Eye of Desire.", "pt": "Lute pelo Daresso's Dream e pela Grand Arena; mate Daresso pelo Olho do Desejo." } },
+    { "name": "Corpus Malachus", "req": true, "boss": "Shavronne, Maligaro, Doedre", "area": "1_4_6_3", "sum": { "en": "Inside the Beast, Piety needs Malachai's three organs to open the Black Core.", "pt": "Dentro da Besta, Piety precisa dos três órgãos de Malachai para abrir o Black Core." } },
+    { "name": "The Eternal Nightmare", "req": true, "boss": "Malachai", "area": "1_4_6_3", "sum": { "en": "The act's main thread: power the Rapture Device, enter the Beast and kill Malachai in the Black Heart.", "pt": "O fio principal do ato: alimente o Rapture Device, entre na Besta e mate Malachai no Black Heart." } }
+  ],
+  "nodes": [
+    { "id": "1_4_town", "name": "Highgate", "x": 412, "y": 249, "town": true, "track": "highgate" },
+    { "id": "1_4_1", "name": "The Aqueduct", "x": 505, "y": 322, "wp": true, "lvl": 33 },
+    { "id": "1_4_2", "name": "The Dried Lake", "x": 213, "y": 349, "lvl": 34, "track": "dried-lake" },
+    { "id": "1_4_3_1", "name": "The Mines Level 1", "also": "Level 2", "x": 375, "y": 185, "lvl": 34, "track": "mines" },
+    { "id": "1_4_3_3", "name": "The Crystal Veins", "x": 320, "y": 152, "wp": true, "lvl": 36 },
+    { "id": "1_4_4_1", "name": "Kaom's Dream", "x": 264, "y": 110, "lvl": 37, "track": "kaoms-dream", "unverified": true },
+    { "id": "1_4_4_3", "name": "Kaom's Stronghold", "x": 215, "y": 76, "wp": true, "lvl": 38, "track": "kaoms-stronghold", "unverified": true },
+    { "id": "1_4_5_1", "name": "Daresso's Dream", "x": 198, "y": 205, "lvl": 37, "track": "daressos-dream", "unverified": true },
+    { "id": "1_4_5_2", "name": "The Grand Arena", "x": 132, "y": 161, "wp": true, "lvl": 38, "track": "grand-arena", "unverified": true },
+    { "id": "1_4_6_1", "name": "The Belly of the Beast", "also": "Level 2", "x": 441, "y": 123, "lvl": 38, "track": "belly", "unverified": true },
+    { "id": "1_4_6_3", "name": "The Harvest", "x": 447, "y": 70, "wp": true, "lvl": 40, "track": "heart-corruption", "unverified": true }
+  ]
+}

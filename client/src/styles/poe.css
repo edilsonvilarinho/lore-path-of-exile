@@ -1,0 +1,83 @@
+/* Sistema visual inspirado na interface de Path of Exile: painéis escuros, molduras de bronze,
+   small-caps, tooltip no formato de item e cores semânticas do jogo. Portado de prototypes/shared/poe.css. */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@400;500;700&family=Alegreya:ital,wght@0,400;0,500;1,400&family=UnifrakturMaguntia&display=swap');
+
+:root {
+  --bg: #0a0806; --bg2: #110d0a; --panel: #15100c; --panel2: #1c1510;
+  --bronze: #6b5433; --bronze2: #3b2d1c; --bronze3: #2a2017;
+  --gold: #c8a86b; --gold-hi: #e9cf94; --head: #dfc189;
+  --text: #a89676; --text-hi: #d6c7a6; --muted: #6f6453; --white: #e8e2d6;
+  --unique: #af6025; --rare: #ffff77; --magic: #8888ff; --gem: #1ba29b; --quest: #4ae63a; --fire: #c8432a;
+  --serif: 'Alegreya SC', 'Fontin SmallCaps', Georgia, serif;
+  --body: 'Alegreya', Georgia, serif;
+  --black: 'UnifrakturMaguntia', 'Alegreya SC', serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--text); font: 17px/1.55 var(--body); }
+body { background:
+  radial-gradient(ellipse at 50% -10%, #2a1a0e55, transparent 60%),
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3CfeColorMatrix values='0 0 0 0 0.5 0 0 0 0 0.4 0 0 0 0 0.3 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)'/%3E%3C/svg%3E"),
+  var(--bg); }
+h1, h2, h3, h4 { font-family: var(--serif); color: var(--head); font-weight: 500; letter-spacing: .02em; }
+a { color: var(--gold); text-decoration: none; }
+::selection { background: #6b5433; color: #fff; }
+::-webkit-scrollbar { width: 10px; height: 10px; } ::-webkit-scrollbar-track { background: #0b0806; }
+::-webkit-scrollbar-thumb { background: linear-gradient(90deg, #3b2d1c, #6b5433, #3b2d1c); border: 2px solid #0b0806; }
+
+/* ---------- moldura de painel ---------- */
+.frame { position: relative; background: linear-gradient(180deg, #17110cf2, #0e0a08f5); border: 1px solid #000;
+  box-shadow: 0 0 0 1px var(--bronze2), 0 0 0 3px #0d0a07, 0 0 0 4px var(--bronze), inset 0 0 0 1px #2d2216, inset 0 0 60px #000c, 0 12px 40px #000; }
+.frame::before, .frame::after { content: ''; position: absolute; width: 14px; height: 14px; border: 2px solid var(--gold); transform: rotate(45deg); background: #120d09; z-index: 2; }
+.frame::before { top: -8px; left: -8px; } .frame::after { bottom: -8px; right: -8px; }
+.sep { height: 9px; margin: 12px 0; background:
+  linear-gradient(90deg, transparent, var(--bronze) 30%, var(--gold) 50%, var(--bronze) 70%, transparent) center / 100% 1px no-repeat; position: relative; }
+.sep::after { content: '◆'; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -52%); font-size: 9px; color: var(--gold); text-shadow: 0 0 6px #000; }
+
+/* ---------- botões e abas ---------- */
+.poe-btn { font: 15px var(--serif); color: var(--text-hi); cursor: pointer; padding: 5px 14px; letter-spacing: .04em;
+  background: linear-gradient(180deg, #2a2017, #15100b); border: 1px solid var(--bronze); box-shadow: inset 0 1px 0 #4d3c26, 0 0 0 1px #000; transition: .15s; }
+.poe-btn:hover { color: var(--gold-hi); border-color: var(--gold); box-shadow: inset 0 1px 0 #6b5433, 0 0 10px #c8a86b44, 0 0 0 1px #000; }
+.poe-btn.on, .poe-btn[aria-selected="true"] { color: #fff2cf; border-color: var(--gold); background: linear-gradient(180deg, #4a3820, #241a10); text-shadow: 0 0 8px #e9cf94aa; }
+.tabs { display: flex; gap: 2px; flex-wrap: wrap; }
+
+/* ---------- barra superior ---------- */
+.topbar { position: fixed; top: 0; left: 0; right: 0; height: 46px; z-index: 100; display: flex; align-items: center; gap: 12px; padding: 0 16px;
+  background: linear-gradient(180deg, #0b0806, #0b0806e6); border-bottom: 1px solid var(--bronze2); box-shadow: 0 1px 0 #000, 0 6px 20px #000a; font-family: var(--serif); }
+.tb-name { flex: 1; color: var(--head); font-size: 17px; letter-spacing: .08em; }
+.tb-now { color: var(--muted); font: italic 14px var(--body); max-width: 220px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tb-mus.on { color: var(--quest); }
+.tb-vol { width: 80px; accent-color: var(--gold); }
+@media (max-width: 700px) { .tb-now, .tb-vol { display: none; } .tb-name { font-size: 14px; } }
+
+/* ---------- tooltip estilo item ---------- */
+.poe-tip { position: fixed; z-index: 200; pointer-events: none; min-width: 200px; max-width: 320px; text-align: center;
+  background: #000000eb; border: 1px solid #5d4a2e; box-shadow: 0 0 0 1px #000, 0 8px 30px #000; }
+.tp-head { font: 18px/1.2 var(--serif); color: var(--head); padding: 7px 14px; background: linear-gradient(180deg, #2c2116, #17110b); border-bottom: 1px solid #5d4a2e; }
+.tp-head.town { color: #8fd18a; }
+.tp-body { padding: 7px 12px 9px; font-size: 15px; }
+.tp-prop { color: #7f7f7f; } .tp-prop b { color: var(--white); font-weight: 400; }
+.tp-desc { color: var(--text-hi); font-style: italic; }
+.tp-unique { color: var(--unique); font-family: var(--serif); }
+.tp-warn { color: #d9a441; font-size: 13px; }
+.tp-sep { height: 1px; margin: 6px 0; background: linear-gradient(90deg, transparent, #5d4a2e, transparent); }
+
+/* ---------- mapa de waypoints ---------- */
+.actmap { position: relative; width: 100%; overflow: hidden; background: #000; user-select: none; animation: am-fade .5s; }
+@keyframes am-fade { from { opacity: 0; filter: blur(6px); } }
+.am-img { position: absolute; inset: 0; width: 100%; height: 100%; display: block; filter: contrast(1.06) saturate(1.05); }
+.am-vig { position: absolute; inset: 0; pointer-events: none; box-shadow: inset 0 0 70px 10px #000c; }
+.am-node { position: absolute; width: 5.4%; aspect-ratio: 1; transform: translate(-50%, -50%); border-radius: 50%; border: 0; background: transparent; cursor: pointer; padding: 0; }
+.am-node i { position: absolute; inset: 0; border-radius: 50%; transition: .2s; }
+.am-node:hover i, .am-node:focus-visible i { box-shadow: 0 0 0 2px #fff6, 0 0 14px 4px #9ff4ffaa; }
+.am-node.town:hover i { box-shadow: 0 0 0 2px #fff6, 0 0 14px 4px #8fff7aaa; }
+.am-node.sel i { box-shadow: 0 0 0 3px var(--gold-hi), 0 0 22px 8px #ffd27acc; animation: am-pulse 1.6s infinite; }
+.am-node.sel::before { content: ''; position: absolute; inset: -55%; border: 2px solid #ffd27a; border-radius: 50%; animation: am-ring 1.6s infinite; }
+@keyframes am-ring { from { transform: scale(.55); opacity: 1; } to { transform: scale(1.15); opacity: 0; } }
+.am-node.unv::after { content: '?'; position: absolute; right: -10%; top: -18%; font: 700 11px var(--serif); color: #d9a441; text-shadow: 0 0 3px #000; }
+@keyframes am-pulse { 50% { box-shadow: 0 0 0 3px var(--gold-hi), 0 0 26px 10px #ffd27a66; } }
+
+/* ---------- semântica de texto ---------- */
+.q-main::before { content: '◆ '; color: var(--gold); }
+.q-side::before { content: '◇ '; color: var(--muted); }
+.unique { color: var(--unique); }
+.lvl { font: 13px var(--serif); color: var(--muted); }
